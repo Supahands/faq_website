@@ -1,0 +1,117 @@
+/* ---- Small devices (landscape phones, 576px and up) --- */
+@media (min-width: 576px) {
+
+}
+
+/* ---- Medium devices (tablets, 768px and up)--- */
+@media (min-width: 768px) {
+    
+}
+
+/* ---- Large devices (desktops, 992px and up)--- */
+@media (min-width: 992px) { 
+
+}
+
+/* ---- Extra large devices (large desktops, 1200px and up)--- */
+@media (min-width: 1200px) { 
+
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(assets/fonts/FontsFree-Net-AvenirLTStd-Book.ttf);
+}
+@font-face {
+    font-family: FuturaFont;
+    src: url(assets/fonts/FuturaFont/FuturaStd\ Heavy.otf);
+}
+/* header */
+.coming-soon {
+    top: 63px;
+    left: 130px;
+    width: 315px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 7px;
+    text-align: left;
+    font-size: 20px;
+    font: FuturaFont;
+    letter-spacing: 0px;
+    color: #67669D;
+    opacity: 1;
+}
+
+.featured-title {
+
+}
+
+.main-body-section {
+    top: 95px;
+    left: 110px;
+    width: 1060px;
+    height: 270px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.coming-header {
+    top: 115px;
+    left: 150px;
+    opacity: 1;
+    font-size: 14px;
+    font: Avenir;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+.help-center {
+    top: 115px;
+    left: 150px;
+    margin-bottom: 22px;
+    /* margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 40px; */
+    height: 36px;
+    opacity: 1;
+}
+
+.link-section {
+    /* margin-top: 40px; */
+    margin-bottom: 10px;
+}
+
+.pst-group-item {
+    font-size: 14px;
+    font: Avenir;
+}
+
+.gotopage {
+    top: 202px;
+    left: 150px;
+    width: 203px;
+    height: 17px;
+    line-height: 1px;
+    text-align: left;
+    font-size: 14px;
+    font: Avenir;
+    color: #337AB7;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.help-contact {
+    top: 268px;
+    left: 150px;
+    /* width: 634px; */
+    height: 37px;
+    text-align: left;
+    font-size: 14px;
+    font: Avenir;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Project Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/projects.css"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="main.css"> -->
+  <link rel="stylesheet" type="text/css" href="styles/queue.css">
+  <link rel="stylesheet" type="text/css" href="styles/navbar.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script>
+          $(document).ready(function(){
+        // Add minus icon for collapse element which is open by default
+        $(".collapse.show").each(function(){
+        	$(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
+        });
+        
+        // Toggle plus minus icon on show hide of collapse element
+        $(".collapse").on('show.bs.collapse', function(){
+        	$(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+        }).on('hide.bs.collapse', function(){
+        	$(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+        });
+    });
+    </script>      
+</head>
+<body>
+<header class="page-header header container-fluid" id="header-section">
+  <nav class="navbar navbar-expand-lg container" id="nav-container">
+    <a class="navbar-brand" id="navbar-brand" href="#">
+      <img src="assets/img/Logo-Fist/Logo-Fist.png" id="mainlogo" alt="supahandslogo">
+        <span class="logo-name"><strong>Help Center</strong></span>
+    </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" id="nav-link" href="#">Help Topic</a>
+          </li>
+          <li class="nav-item" id="nav-div">
+            <a class="nav-link" id="nav-tab" href="#">Guides</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-tab-three" href="#">Products</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <img src="images/logos/search-solid.svg"  id="searchlogo" alt="searchlogo">
+            <!-- <i class="fa fa-circle-o-notch fa-spin"></i> -->
+            <!-- <i class="fa fa-search" aria-hidden="true"></i> -->
+          <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search here"> -->
+        </form>
+        <button class="btn navbtn my-2 my-sm-0"><strong>Go To Workplace</strong></button>
+        <!-- <a href="#" class="btn navbtn my-2 my-sm-0">Go To Workplace </a> -->
+        <!-- <a class=" navbtn my-2 my-sm-0" href="#">Go To Workplace </a> -->
+      </div>
+  </nav>
+</header>
+<section class="container-fluid" id="menunav">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <nav class="navbar navbar-expand-sm">
+          <ul class="navbar-nav">
+            <li class="nav-item" id="project-tab-one">
+              <a class="nav-link" id="projectlink-one" href="#">PROJECTS</a>
+            </li>
+            <li class="nav-item" id="project-tab-two">
+              <a class="nav-link" id="projectlink-two"  href="#">PAYMENTS</a>
+            </li>
+            <li class="nav-item" id="project-tab-three">
+              <a class="nav-link" id="projectlink-three"  href="#">ACCOUNT</a>
+            </li>
+            <li class="nav-item" id="project-tab-four">
+              <a class="nav-link" id="projectlink-four"  href="#">POLICIES</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container-fluid" id="project-body">
+  <div class="container" id="cont">
+    <div class="row project-main-row">
+      <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4" id="sidebar-section">
+        <!-- accordion -->
+        <div class="sidebar">
+          <div id="accordion" class="project-accordion">
+            <div class="card">
+              <div class="card-header" id="itemOneHeader">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" id="how-to-join" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <strong>How to join</strong>
+                    <span class="fa-stack fa-sm">
+                      <i class="fa fa-arrow-down"></i> 
+                    </span>
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseOne" class="collapse show" aria-labelledby="itemOneHeader" data-parent="#accordion">
+                <div class="card-body">
+                  <p class="side-menu">Getting Started</p>
+                  <p class="side-menu">Sub-category A-2</p>
+                  <p class="side-menu">Sub-catergory A-3</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="itemTwoHeader">
+                <h5 class="mb-0">
+                  <button class="btn do-now btn-link collapsed" id="how-to-join"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <strong>Project Queue</strong>
+                    <span class="fa-stack fa-sm">
+                      <i class="fa fa-arrow-down"></i> 
+                    </span>
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="itemTwoHeader" data-parent="#accordion">
+                <div class="card-body">
+                  <p class="side-menu">Getting in the queue</p>
+                  <p class="side-menu">Tutorial Timeslots</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="itemThreeHeader">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" id="how-to-join"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <strong> Project Category</strong>
+                    <span class="fa-stack fa-sm">
+                        <i class="fa fa-arrow-down"></i> 
+                      </span>
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="itemThreeHeader" data-parent="#accordion">
+                <div class="card-body">
+                    <p class="side-menu">Getting in the queue</p>
+                    <p class="side-menu">Getting in the queue</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="itemFourHeader">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" id="how-to-join"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <strong>Should the length be limited</strong>
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="itemFourHeader" data-parent="#accordion">
+                <div class="card-body">
+                  <p class="side-menu">Getting in the queue</p>
+                  <p class="side-menu">Getting in the queue</p>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed"  type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Collapsible Group
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div> -->
+            <div class="card">
+              <div class="card-header" id="itemFiveHeader">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed howtojoin"  id="how-to-join" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <strong>Smol Cat</strong>
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="itemFiveHeader" data-parent="#accordion">
+                <div class="card-body">
+                  <p class="side-menu">Getting in the queue</p>
+                  <p class="side-menu">Getting in the queue</p> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8">
+        <p class="title main-title"><strong>Project Queue</strong></p>
+        <p class="subtitle project-sub-title">Sub-category A description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ornare felis sit amet tellus porta, in egestas enim interdum.</p>
+         <!-- main section -->
+        <div class="row project-row-one">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="project-column">
+          <p class="subtitle" id="sub-heading"><strong>Getting in the Queue</strong></p>
+        </div>
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <ul class="list-group">
+              <p class="pst-group-item"><a class="redirect-link" href="#"> How does the project queue system work?</a></p>
+              <p class="pst-group-item"><a class="redirect-link" href="#"> Why do I need to wait in a queue to join a project?</a></p>
+              <p class="pst-group-item"><a class="redirect-link" href="#"> Will I get onto a project if I join a queue?</a></p>
+              <p class="pst-group-item"><a class="redirect-link" href="#"> I am in a project queue and my position in the queue has remained the same for a while.</a></p>
+              <p class="pst-group-item"><a class="redirect-link" href="#"> I left a project queue by accident. Can I get my original place in the queue back?</a></p>
+              <p class="pst-group-item"><a class="redirect-link" href="#"> How can I get a higher chance of getting on a project queue faster?</a></p>
+              <p class="pst-group-item"><a class="redirect-link" href="#"> Do my SupaAgent ratings and Workplace labels impact my position in the queue?</a></p>
+              <p class="pst-group-item"><a class="redirect-link" href="#"> Why do we need labels if everyone has to join a project queue?</a></p>
+              <p class="pst-group-item"><a class="redirect-link" href="#"> I’ve worked on a similar project before. Will I get priority access in the queue?</a></p>
+              <p class="pst-group-item"><a class="redirect-link" href="#"> What happens if I am unable to start the tutorial when it’s my turn?</a></p>
+              <p class="pst-group-item"><a class="redirect-link" href="#"> Do I have to refresh the page when I am in the queue?</a></p>
+              <p class="pst-group-item"><a class="redirect-link" href="#"> Am I more likely to get a place on a project if I queue very early?</a></p>
+              <p class="pst-group-item"><a class="redirect-link" href="#"> The online queue was full, but it opened again. How is this possible?</a></p>
+              <p class="pst-group-item"><a class="redirect-link" href="#"> How many projects can I queue for at any given time?</a></p>
+              <p class="pst-group-item"><a class="redirect-link" href="#"> What are the Project Queue terms and conditions?</a></p>
+              <p class="pst-group-item"><a class="redirect-link" href="#"> Why do the average pass rate and tutorial time display nothing?</a></p>
+            </ul>
+          </div>
+        </div> 
+        <div class="row que-row-two">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="projet-column">
+            <p class="subtitle" id="que-heading-two"><strong>Tutorial Timeslots</strong></p>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <ul class="list-group">
+              <p class="pst-group-item"><a class="redirect-link" href="#"> Why will my tutorial slot be held for only 10 minutes?</a></p>
+              <p class="pst-group-item"><a class="redirect-link" href="#"> My tutorial page timed out. What should I do?</a></p>
+              <p class="pst-group-item"><a class="redirect-link" href="#"> How should I get ready for the tutorial?</a></p>
+              <p class="pst-group-item"><a class="redirect-link" href="#"> I did not manage to complete the project tutorial. How many times am I allowed to try again?</a></p>
+              <p class="pst-group-item"><a class="redirect-link" href="#"> How will I know when it is my turn to do the project tutorial or assessment?</a></p>
+              <p class="pst-group-item"><a class="redirect-link" href="#"> What happens if I don’t finish the tutorial or assessment in time?</a></p>
+              <p class="pst-group-item"><a class="redirect-link" href="#"> I passed the project tutorial but did not get assigned to the project. Why?</a></p>
+              <p class="pst-group-item"><a class="redirect-link" href="#"> How long does a project tutorial or assessment take?</a></p>
+            </ul>
+          </div>
+        </div> 
+      </div>
+      <br>
+    </div>
+  </div>
+</section>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+</body>
+</html>

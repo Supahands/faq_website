@@ -1,0 +1,111 @@
+/* ---- Small devices (landscape phones, 576px and up) --- */
+@media (min-width: 576px) {
+
+}
+
+/* ---- Medium devices (tablets, 768px and up)--- */
+@media (min-width: 768px) {
+    
+}
+
+/* ---- Large devices (desktops, 992px and up)--- */
+@media (min-width: 992px) { 
+
+}
+
+/* ---- Extra large devices (large desktops, 1200px and up)--- */
+@media (min-width: 1200px) { 
+
+}
+
+
+/* -------- tutorial accordion --------- */
+.htj-row-three .accordion .card .card-header {
+    background: transparent;
+    border-bottom-color: #EDEFF0;
+    border-top-color: transparent;
+    margin-top: -9px;
+    height: 46px;
+    border: none;
+}
+.htj-row-three .accordion .card {
+    width: 730px;
+    height: 46px;
+    opacity: 1;
+}
+
+.htj-row-three {
+    padding-left: 20px;
+    width: 741px;
+    /* height: 275px; */
+    opacity: 1;
+}
+
+.htj-row-three #join-column {
+
+}
+
+.htj-row-three #join-column #htj-heading-two {
+    margin-top: 50px;
+    width: 430px;
+    height: 19px;
+    text-align: left;
+    font: Avenir;
+    letter-spacing: 0px;
+    color: #67669D;
+    opacity: 1;
+}
+
+.htj-row-three .card,
+    .myaccordion .card:last-child .card-header {
+    border-right: none;
+    border-left: none;
+}
+.htj-row-three .accordion .card .collapsed {
+    text-align: left;
+    font-size: 14px;
+    font: Avenir;
+    letter-spacing: 0px;
+    color: #337AB7;
+    opacity: 1;
+}
+
+.htj-row-three .card,
+    .myaccordion .card:last-child .card-header {
+    /* border: none; */
+}
+
+.htj-row-three .mb-0 .btn {
+    width: 100%;
+}
+
+.htj-row-three .btn-label {
+    font-size: 14px;
+    float: left;
+}
+
+.htj-row-three .fa-stack {
+    font-size: 14px;
+    float: right;
+    width: 0px;
+    color: #4A4A4A;
+}
+
+.sidebar-title {
+    padding-left: 0px;
+}
+
+.htj-row-three .htj-heading-two {
+    top: 167px;
+    left: 400px;
+    width: 741px;
+    height: 37px;
+    text-align: left;
+    font-size: 14px;
+    font: Avenir;
+    letter-spacing: 0px;
+    color: #67669D;
+
+    /* color: #4A4A4A; */
+    opacity: 1;
+}

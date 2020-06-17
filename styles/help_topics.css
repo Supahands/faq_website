@@ -1,0 +1,126 @@
+/* ---- Small devices (landscape phones, 576px and up) --- */
+@media (min-width: 576px) {
+
+}
+
+/* ---- Medium devices (tablets, 768px and up)--- */
+@media (min-width: 768px) {
+    
+}
+
+/* ---- Large devices (desktops, 992px and up)--- */
+@media (min-width: 992px) { 
+
+}
+
+/* ---- Extra large devices (large desktops, 1200px and up)--- */
+@media (min-width: 1200px) { 
+
+}
+
+/* -------- queue accordion --------- */
+
+.project-row-one .accordion .card {
+    width: 730px;
+    height: 46px;
+    background: transparent;
+    opacity: 1;
+}
+
+.project-row-one .accordion .card .card-header {
+    background: transparent;
+    border-bottom-color: #EDEFF0;
+    border-top-color: transparent;
+    margin-top: -9px;
+    height: 46px;
+    border: none;
+}
+
+.project-row-one .accordion .card .collapsed {
+    text-align: left;
+    font-size: 14px;
+    font: Avenir;
+    letter-spacing: 0px;
+    color: #337AB7;
+    opacity: 1;
+}
+
+.project-row-one .mb-0 .btn {
+    width: 100%;
+}
+
+.project-row-one .btn-label {
+    font-size: 14px;
+    float: left;
+}
+
+.project-row-one .fa-stack {
+    font-size: 14px;
+    float: right;
+    width: 0px;
+    color: #4A4A4A;
+}
+
+.project-row-one .card,
+    .myaccordion .card:last-child .card-header {
+    border-right: none;
+    border-left: none;
+}
+
+.project-row-one .first-accordion {
+    border-top: none;
+}
+
+/* -------- tutorial accordion --------- */
+.que-row-two .accordion .card .card-header {
+    background: transparent;
+    border-bottom-color: #EDEFF0;
+    border-top-color: transparent;
+    margin-top: -9px;
+    height: 46px;
+    border: none;
+}
+.que-row-two .accordion .card {
+    width: 730px;
+    height: 46px;
+    opacity: 1;
+}
+
+.que-row-two .card,
+    .myaccordion .card:last-child .card-header {
+    border-right: none;
+    border-left: none;
+}
+.que-row-two .accordion .card .collapsed {
+    text-align: left;
+    font-size: 14px;
+    font: Avenir;
+    letter-spacing: 0px;
+    color: #337AB7;
+    opacity: 1;
+}
+
+.que-row-two .card,
+    .myaccordion .card:last-child .card-header {
+    /* border: none; */
+}
+
+.que-row-two .mb-0 .btn {
+    width: 100%;
+}
+
+.que-row-two .btn-label {
+    font-size: 14px;
+    float: left;
+}
+
+.que-row-two .fa-stack {
+    font-size: 14px;
+    float: right;
+    width: 0px;
+    color: #4A4A4A;
+}
+
+.sidebar-title {
+    padding-left: 0px;
+}

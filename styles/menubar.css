@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Avenir;
+    src: url(assets/fonts/FontsFree-Net-AvenirLTStd-Book.ttf);
+  }
+  @font-face {
+    font-family: FuturaFont;
+    src: url(assets/fonts/FuturaFont/FuturaStd\ Heavy.otf);
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: Avenir;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+  }
+  
+  /* -----------------      menu bar section      -------------*/
+#menunav {
+  top: 60px;
+  left: 110px;
+  width: 1060px;
+  height: 50px;
+  margin-top: 10px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 5px #898CB84D;
+  border-radius: 10px 10px 0px 0px;
+  opacity: 1;
+}
+  
+#projectlink-one {
+  top: 81px;
+  left: 136px;
+  width: 69px;
+  height: 14px;
+  text-align: left;
+  font-size: 12px;
+  font: Avenir;
+  letter-spacing: 1.2px;
+  color: #67669D;
+  text-transform: uppercase;
+  opacity: 1;
+}
+  
+#projectlink-two {
+  top: 81px;
+  left: 254px;
+  width: 72px;
+  height: 14px;
+  text-align: left;
+  font-size: 12px;
+  font: Avenir;
+  letter-spacing: 1.2px;
+  color: #888888;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+#project-tab-one {
+  top: 81px;
+  left: 110px;
+  width: 120px;
+  height: 28px;
+  opacity: 1;
+}
+
+#project-tab-two {
+  top: 81px;
+  left: 230px;
+  width: 120px;
+  height: 28px;
+  opacity: 1;
+}
+  
+#projectlink-two {
+  top: 81px;
+  left: 254px;
+  width: 72px;
+  height: 14px;
+  text-align: left;
+  font-size: 12px;
+  font: Avenir;
+  letter-spacing: 1.2px;
+  color: #888888;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+#project-tab-three {
+  top: 81px;
+  left: 350px;
+  width: 120px;
+  height: 28px;
+  opacity: 1;
+}
+  
+#projectlink-three {
+  top: 81px;
+  left: 254px;
+  width: 72px;
+  height: 14px;
+  text-align: left;
+  font-size: 12px;
+  font: Avenir;
+  letter-spacing: 1.2px;
+  color: #888888;
+  text-transform: uppercase;
+  opacity: 1;
+}
+  
+#project-tab-four {
+  top: 81px;
+  left: 470px;
+  width: 120px;
+  height: 28px;
+  opacity: 1;
+}
+
+#projectlink-four {
+  top: 81px;
+  left: 500px;
+  width: 61px;
+  height: 14px;
+  text-align: left;
+  font-size: 12px;
+  font: Avenir;
+  letter-spacing: 1.2px;
+  color: #888888;
+  text-transform: uppercase;
+  opacity: 1;
+}
+/* --------------       end      ------------ */
+  
