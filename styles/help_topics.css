@@ -22,7 +22,7 @@
 
 .project-row-one .accordion .card {
     width: 730px;
-    height: 46px;
+    /* height: 46px; */
     background: transparent;
     opacity: 1;
 }
@@ -72,6 +72,13 @@
 }
 
 /* -------- tutorial accordion --------- */
+.que-row-two {
+    padding-left: 20px;
+    width: 741px;
+    /* height: 300px; */
+    opacity: 1;
+}
+
 .que-row-two .accordion .card .card-header {
     background: transparent;
     border-bottom-color: #EDEFF0;
@@ -82,7 +89,7 @@
 }
 .que-row-two .accordion .card {
     width: 730px;
-    height: 46px;
+    /* height: 46px; */
     opacity: 1;
 }
 

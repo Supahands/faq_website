@@ -4,17 +4,16 @@
   <title>How To Join Page</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="styles/howtojoin.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">  <link rel="stylesheet" type="text/css" href="styles/howtojoin.css">
   <link rel="stylesheet" type="text/css" href="styles/menubar.css">
   <link rel="stylesheet" type="text/css" href="styles/sidebar.css">
   <link rel="stylesheet" type="text/css" href="styles/help_topics.css">
   <link rel="stylesheet" type="text/css" href="styles/queue.css">
   <link rel="stylesheet" type="text/css" href="styles/navbar.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </head>
 <body>
 <header class="page-header header container-fluid" id="header-section">
@@ -41,13 +40,8 @@
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <img src="images/logos/search-solid.svg"  id="searchlogo" alt="searchlogo">
-            <!-- <i class="fa fa-circle-o-notch fa-spin"></i> -->
-            <!-- <i class="fa fa-search" aria-hidden="true"></i> -->
-          <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search here"> -->
         </form>
         <button class="btn navbtn my-2 my-sm-0"><strong>Go To Workplace</strong></button>
-        <!-- <a href="#" class="btn navbtn my-2 my-sm-0">Go To Workplace </a> -->
-        <!-- <a class=" navbtn my-2 my-sm-0" href="#">Go To Workplace </a> -->
       </div>
   </nav>
 </header>
@@ -85,7 +79,7 @@
             <div class="card">
               <div class="card-header sidebar-title" id="itemOneHeader">
                 <h5 class="mb-0">
-                  <button class="btn btn-link" id="how-to-join" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  <button class="btn btn-link" id="how-to-join" data-toggle="collapse" data-target="#howToJoin" aria-expanded="false" aria-controls="howToJoin">
                     <span class="side-title">How to join</span>
                     <span class="fa-stack fa-sm">
                       <i class="fa fa-arrow-down"></i> 
@@ -93,7 +87,7 @@
                   </button>
                 </h5>
               </div>
-              <div id="collapseOne" class="collapse show" aria-labelledby="itemOneHeader" data-parent="#accordion">
+              <div id="howToJoin" class="collapse" aria-labelledby="itemOneHeader" data-parent="#accordion">
                 <div class="card-body">
                   <p class="side-menu">Getting Started</p>
                   <p class="side-menu">Sub-category A-2</p>
@@ -104,7 +98,7 @@
             <div class="card">
               <div class="card-header sidebar-title" id="itemTwoHeader">
                 <h5 class="mb-0">
-                  <button class="btn do-now btn-link collapsed" id="how-to-join"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <button class="btn do-now btn-link collapsed" id="how-to-join"  data-toggle="collapse" data-target="#projectQueue" aria-expanded="false" aria-controls="projectQueue">
                     <span class="side-title">Project Queue</span>
                     <span class="fa-stack fa-sm">
                       <i class="fa fa-arrow-down"></i> 
@@ -112,7 +106,7 @@
                   </button>
                 </h5>
               </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="itemTwoHeader" data-parent="#accordion">
+              <div id="projectQueue" class="collapse" aria-labelledby="itemTwoHeader" data-parent="#accordion">
                 <div class="card-body">
                   <p class="side-menu">Getting in the queue</p>
                   <p class="side-menu">Tutorial Timeslots</p>
@@ -122,7 +116,7 @@
             <div class="card">
               <div class="card-header sidebar-title" id="itemThreeHeader">
                 <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" id="how-to-join"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <button class="btn btn-link collapsed" id="how-to-join"  data-toggle="collapse" data-target="#waitInQueue" aria-expanded="false" aria-controls="projectCategory">
                     <span class="side-title"> Project Category</span>
                     <span class="fa-stack fa-sm">
                         <i class="fa fa-arrow-down"></i> 
@@ -130,7 +124,7 @@
                   </button>
                 </h5>
               </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="itemThreeHeader" data-parent="#accordion">
+              <div id="projectCategory" class="collapse" aria-labelledby="itemThreeHeader" data-parent="#accordion">
                 <div class="card-body">
                     <p class="side-menu">Getting in the queue</p>
                     <p class="side-menu">Getting in the queue</p>
@@ -140,7 +134,7 @@
             <div class="card">
               <div class="card-header sidebar-title" id="itemFourHeader">
                 <h5 class="mb-0">
-                  <button class="btn collapsed" id="how-to-join"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <button class="btn collapsed" id="how-to-join"  data-toggle="collapse" data-target="#shouldTheLengthBe" aria-expanded="false" aria-controls="shouldTheLengthBe">
                     <span class="side-title">Should the length be limited</span>
                     <span class="fa-stack fa-sm">
                         <i class="fa fa-arrow-down"></i> 
@@ -148,7 +142,7 @@
                   </button>
                 </h5>
               </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="itemFourHeader" data-parent="#accordion">
+              <div id="shouldTheLengthBe" class="collapse" aria-labelledby="itemFourHeader" data-parent="#accordion">
                 <div class="card-body">
                   <p class="side-menu">Getting in the queue</p>
                   <p class="side-menu">Getting in the queue</p>
@@ -158,7 +152,7 @@
             <div class="card">
               <div class="card-header sidebar-title" id="itemFiveHeader">
                 <h5 class="mb-0">
-                  <button class="btn btn collapsed howtojoin"  id="how-to-join" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <button class="btn btn collapsed howtojoin"  id="how-to-join" data-toggle="collapse" data-target="#smolCat" aria-expanded="false" aria-controls="smolCat">
                     <span class="side-title">Smol Cat</span>
                     <span class="fa-stack fa-sm">
                         <i class="fa fa-arrow-down"></i> 
@@ -166,7 +160,7 @@
                   </button>
                 </h5>
               </div>
-              <div id="collapseThree" class="collapse" aria-labelledby="itemFiveHeader" data-parent="#accordion">
+              <div id="smolCat" class="collapse" aria-labelledby="itemFiveHeader" data-parent="#accordion">
                 <div class="card-body">
                   <p class="side-menu">Getting in the queue</p>
                   <p class="side-menu">Getting in the queue</p> 
@@ -185,123 +179,123 @@
             <p class="subtitle" id="sub-heading"><strong>Getting Started</strong></p>
           </div>
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-              <div class="accordion" id="accordionExample">
-                  <div class="card">
-                    <div class="card-header" id="headingOneOne">
-                      <h2 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                          <span class="btn-label">
-                            How does the project queue system work?
-                          </span>  
-                          <span class="fa-stack fa-sm">
-                            <i class="fa fa-arrow-down"></i> 
-                          </span>
-                        </button>
-                      </h2>
-                    </div>
-                
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOneOne" data-parent="#accordionExample">
-                      <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingOneTwo">
-                      <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          <span class="btn-label">
-                              Why do I need to wait in a queue to join a project?
-                          </span>  
-                          <span class="fa-stack fa-sm">
-                              <i class="fa fa-arrow-down"></i> 
-                            </span>
-                        </button>
-                      </h2>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingOneTwo" data-parent="#accordionExample">
-                      <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingOneThree">
-                      <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          <span class="btn-label">
-                              Will I get onto a project if I join a queue?
-                          </span>  
-                          <span class="fa-stack fa-sm">
-                            <i class="fa fa-arrow-down"></i> 
-                          </span>
-                        </button>
-                      </h2>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingOneThree" data-parent="#accordionExample">
-                      <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingOneFour">
-                      <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          <span class="btn-label">
-                              How many projects can I queue for at any given time?
-                          </span>  
-                          <span class="fa-stack fa-sm">
-                              <i class="fa fa-arrow-down"></i> 
-                            </span>
-                        </button>
-                      </h2>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingOneFour" data-parent="#accordionExample">
-                      <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingOneFive">
-                      <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          <span class="btn-label">
-                              What are the Project Queue terms and conditions?
-                          </span>  
-                          <span class="fa-stack fa-sm">
-                              <i class="fa fa-arrow-down"></i> 
-                            </span>
-                        </button>
-                      </h2>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingOneFive" data-parent="#accordionExample">
-                      <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingOneSix">
-                      <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          <span class="btn-label">
-                              Why do the average pass rate and tutorial time display nothing?
-                          </span>  
-                          <span class="fa-stack fa-sm">
-                              <i class="fa fa-arrow-down"></i> 
-                            </span>
-                        </button>
-                      </h2>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingOneSix" data-parent="#accordionExample">
-                      <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                      </div>
-                    </div>
+            <div class="accordion" id="gettingStartedAcc">
+              <div class="card">
+                <div class="card-header" id="headingOneOne">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#queueSystem" aria-expanded="false" aria-controls="queueSystem">
+                      <span class="btn-label">
+                        How does the project queue system work?
+                      </span>  
+                      <span class="fa-stack fa-sm">
+                        <i class="fa fa-arrow-down"></i> 
+                      </span>
+                    </button>
+                  </h2>
+                </div>
+            
+                <div id="queueSystem" class="collapse" aria-labelledby="headingOneOne" data-parent="#gettingStartedAcc">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                   </div>
                 </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingOneTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#waitInQueue" aria-expanded="false" aria-controls="waitInQueue">
+                      <span class="btn-label">
+                          Why do I need to wait in a queue to join a project?
+                      </span>  
+                      <span class="fa-stack fa-sm">
+                          <i class="fa fa-arrow-down"></i> 
+                        </span>
+                    </button>
+                  </h2>
+                </div>
+                <div id="waitInQueue" class="collapse" aria-labelledby="headingOneTwo" data-parent="#gettingStartedAcc">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingOneThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#willIGetOntoAProject" aria-expanded="false" aria-controls="willIGetOntoAProject">
+                      <span class="btn-label">
+                          Will I get onto a project if I join a queue?
+                      </span>  
+                      <span class="fa-stack fa-sm">
+                        <i class="fa fa-arrow-down"></i> 
+                      </span>
+                    </button>
+                  </h2>
+                </div>
+                <div id="willIGetOntoAProject" class="collapse" aria-labelledby="headingOneThree" data-parent="#gettingStartedAcc">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingOneFour">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#howManyCanIQueue" aria-expanded="false" aria-controls="howManyCanIQueue">
+                      <span class="btn-label">
+                          How many projects can I queue for at any given time?
+                      </span>  
+                      <span class="fa-stack fa-sm">
+                          <i class="fa fa-arrow-down"></i> 
+                        </span>
+                    </button>
+                  </h2>
+                </div>
+                <div id="howManyCanIQueue" class="collapse" aria-labelledby="headingOneFour" data-parent="#gettingStartedAcc">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingOneFive">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#termsAndConditions" aria-expanded="false" aria-controls="termsAndConditions">
+                      <span class="btn-label">
+                          What are the Project Queue terms and conditions?
+                      </span>  
+                      <span class="fa-stack fa-sm">
+                          <i class="fa fa-arrow-down"></i> 
+                        </span>
+                    </button>
+                  </h2>
+                </div>
+                <div id="termsAndConditions" class="collapse" aria-labelledby="headingOneFive" data-parent="#gettingStartedAcc">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingOneSix">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#tutorialTimeDisplay" aria-expanded="false" aria-controls="tutorialTimeDisplay">
+                      <span class="btn-label">
+                          Why do the average pass rate and tutorial time display nothing?
+                      </span>  
+                      <span class="fa-stack fa-sm">
+                          <i class="fa fa-arrow-down"></i> 
+                        </span>
+                    </button>
+                  </h2>
+                </div>
+                <div id="tutorialTimeDisplay" class="collapse" aria-labelledby="headingOneSix" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div> 
         <div class="row que-row-two">
@@ -324,7 +318,7 @@
                   </h2>
                 </div>
             
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingTwoOne" data-parent="#accordionExample">
+                <div id="collapseOne" class="collapse" aria-labelledby="headingTwoOne" data-parent="#accordionExample">
                   <div class="card-body">
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                   </div>
@@ -333,7 +327,7 @@
               <div class="card">
                 <div class="card-header" id="headingTwoTwo">
                   <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#myTutorialPage" aria-expanded="false" aria-controls="myTutorialPage">
                       <span class="btn-label">
                           My tutorial page timed out. What should I do?
                       </span>  
@@ -343,7 +337,7 @@
                     </button>
                   </h2>
                 </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwoTwo" data-parent="#accordionExample">
+                <div id="myTutorialPage" class="collapse" aria-labelledby="headingTwoTwo" data-parent="#accordionExample">
                   <div class="card-body">
                     <span class="btn-label">
                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
@@ -357,7 +351,7 @@
               <div class="card">
                 <div class="card-header" id="headingTwoThree">
                   <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#howShouldIGet" aria-expanded="false" aria-controls="howShouldIGet">
                       <span class="btn-label">
                           How should I get ready for the tutorial?
                       </span>  
@@ -367,7 +361,7 @@
                     </button>
                   </h2>
                 </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwoThree" data-parent="#accordionExample">
+                <div id="howShouldIGet" class="collapse" aria-labelledby="headingTwoThree" data-parent="#accordionExample">
                   <div class="card-body">
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                   </div>
@@ -376,7 +370,7 @@
               <div class="card">
                 <div class="card-header" id="headingTwoFour">
                   <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#didNotManage" aria-expanded="false" aria-controls="didNotManage">
                       <span class="btn-label">
                           I did not manage to complete the project tutorial. How many times am I allowed to try again?
                       </span>  
@@ -386,7 +380,7 @@
                     </button>
                   </h2>
                 </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwoFour" data-parent="#accordionExample">
+                <div id="didNotManage" class="collapse" aria-labelledby="headingTwoFour" data-parent="#accordionExample">
                   <div class="card-body">
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                   </div>
@@ -395,7 +389,7 @@
               <div class="card">
                 <div class="card-header" id="headingTwoFive">
                   <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#projectTutorialComp" aria-expanded="false" aria-controls="projectTutorialComp">
                       <span class="btn-label">
                           I did not manage to complete the project tutorial. How many times am I allowed to try again?
                       </span>  
@@ -405,7 +399,7 @@
                     </button>
                   </h2>
                 </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwoFive" data-parent="#accordionExample">
+                <div id="projectTutorialComp" class="collapse" aria-labelledby="headingTwoFive" data-parent="#accordionExample">
                   <div class="card-body">
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                   </div>
@@ -414,7 +408,7 @@
               <div class="card">
                 <div class="card-header" id="headingTwoSix">
                   <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#howLongDoesIt" aria-expanded="false" aria-controls="howLongDoesIt">
                       <span class="btn-label">
                           How long does a project tutorial or assessment take?
                       </span>  
@@ -424,7 +418,7 @@
                     </button>
                   </h2>
                 </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingTwoSix" data-parent="#accordionExample">
+                <div id="howLongDoesIt" class="collapse" aria-labelledby="headingTwoSix" data-parent="#accordionExample">
                   <div class="card-body">
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                   </div>
@@ -435,14 +429,14 @@
         </div>
         <div class="row htj-row-three">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="join-column">
-            <p class="subtitle " id="htj-heading-two"><strong>Sub-category A-2</strong></p>
+            <p class="subtitle " id="htj-heading-two"><strong>Sub-category A-3</strong></p>
           </div>
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <div class="accordion" id="accordionExample">
+            <div class="accordion" id="subCategoryA2">
               <div class="card">
                 <div class="card-header" id="headingThreeOne">
                   <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingSubB" aria-expanded="false" aria-controls="headingSubB">
                       <span class="btn-label">
                           My tutorial page timed out. What should I do?
                       </span>  
@@ -452,21 +446,16 @@
                     </button>
                   </h2>
                 </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingThreeOne" data-parent="#accordionExample">
+                <div id="headingSubB" class="collapse" aria-labelledby="headingThreeOne" data-parent="#subCategoryA2">
                   <div class="card-body">
-                    <span class="btn-label">
                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                    </span>  
-                    <span class="fa-stack fa-sm">
-                        <i class="fa fa-arrow-down"></i> 
-                      </span>
                   </div>
                 </div>
               </div>
               <div class="card">
                 <div class="card-header" id="headingThreeTwo">
                   <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingSubC" aria-expanded="false" aria-controls="headingSubC">
                       <span class="btn-label">
                           How long does a project tutorial or assessment take?
                       </span>  
@@ -476,7 +465,7 @@
                     </button>
                   </h2>
                 </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThreeTwo" data-parent="#accordionExample">
+                <div id="headingSubC" class="collapse" aria-labelledby="headingThreeTwo" data-parent="#subCategoryA2">
                   <div class="card-body">
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                   </div>
@@ -484,13 +473,11 @@
               </div>
             </div>
           </div>
-        </div> 
+        </div>  
       </div>
       <br>
     </div>
   </div>
 </section>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 </body>
 </html>

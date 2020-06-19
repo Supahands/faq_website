@@ -4,16 +4,16 @@
   <title>Help Topic Page</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">  <link rel="stylesheet" type="text/css" href="styles/howtojoin.css">
   <link rel="stylesheet" type="text/css" href="styles/menubar.css">
   <link rel="stylesheet" type="text/css" href="styles/sidebar.css">
   <link rel="stylesheet" type="text/css" href="styles/help_topics.css">
   <link rel="stylesheet" type="text/css" href="styles/queue.css">
   <link rel="stylesheet" type="text/css" href="styles/navbar.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </head>
 <body>
 <header class="page-header header container-fluid" id="header-section">
@@ -29,7 +29,7 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link" id="nav-link" href="#">Help Topic</a>
+            <a class="nav-link" id="nav-link" href="help_topics.html">Help Topic</a>
           </li>
           <li class="nav-item" id="nav-div">
             <a class="nav-link" id="nav-tab" href="#">Guides</a>
@@ -40,13 +40,8 @@
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <img src="images/logos/search-solid.svg"  id="searchlogo" alt="searchlogo">
-            <!-- <i class="fa fa-circle-o-notch fa-spin"></i> -->
-            <!-- <i class="fa fa-search" aria-hidden="true"></i> -->
-          <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search here"> -->
         </form>
         <button class="btn navbtn my-2 my-sm-0"><strong>Go To Workplace</strong></button>
-        <!-- <a href="#" class="btn navbtn my-2 my-sm-0">Go To Workplace </a> -->
-        <!-- <a class=" navbtn my-2 my-sm-0" href="#">Go To Workplace </a> -->
       </div>
   </nav>
 </header>
@@ -94,9 +89,9 @@
               </div>
               <div id="collapseOne" class="collapse" aria-labelledby="itemOneHeader" data-parent="#accordion">
                 <div class="card-body">
-                  <p class="side-menu">Getting Started</p>
-                  <p class="side-menu">Sub-category A-2</p>
-                  <p class="side-menu">Sub-catergory A-3</p>
+                  <p class="side-menu"><a href="how_to_join.html">Getting Started</a></p>
+                  <p class="side-menu"><a href="how_to_join.html">Sub-category A-2</a></p>
+                  <p class="side-menu"><a href="how_to_join.html">Sub-catergory A-3</a></p>
                 </div>
               </div>
             </div>
@@ -121,7 +116,7 @@
             <div class="card">
               <div class="card-header sidebar-title" id="itemThreeHeader">
                 <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" id="how-to-join"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <button class="btn btn-link collapsed" id="how-to-join"  data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     <span class="side-title"> Project Category</span>
                     <span class="fa-stack fa-sm">
                       <i class="fa fa-arrow-down"></i> 
@@ -129,7 +124,7 @@
                   </button>
                 </h5>
               </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="itemThreeHeader" data-parent="#accordion">
+              <div id="collapseThree" class="collapse" aria-labelledby="itemThreeHeader" data-parent="#accordion">
                 <div class="card-body">
                     <p class="side-menu">Getting in the queue</p>
                     <p class="side-menu">Getting in the queue</p>
@@ -139,7 +134,7 @@
             <div class="card">
               <div class="card-header sidebar-title" id="itemFourHeader">
                 <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" id="how-to-join"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <button class="btn btn-link collapsed" id="how-to-join"  data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                     <span class="side-title">Should the length be limited</span>
                     <span class="fa-stack fa-sm">
                         <i class="fa fa-arrow-down"></i> 
@@ -147,7 +142,7 @@
                   </button>
                 </h5>
               </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="itemFourHeader" data-parent="#accordion">
+              <div id="collapseFour" class="collapse" aria-labelledby="itemFourHeader" data-parent="#accordion">
                 <div class="card-body">
                   <p class="side-menu">Getting in the queue</p>
                   <p class="side-menu">Getting in the queue</p>
@@ -157,7 +152,7 @@
             <div class="card">
               <div class="card-header sidebar-title" id="itemFiveHeader">
                 <h5 class="mb-0">
-                  <button class="btn btn-link collapsed howtojoin"  id="how-to-join" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <button class="btn btn-link collapsed howtojoin"  id="how-to-join" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                     <span class="side-title">Smol Cat</span>
                     <span class="fa-stack fa-sm">
                         <i class="fa fa-arrow-down"></i> 
@@ -165,7 +160,7 @@
                   </button>
                 </h5>
               </div>
-              <div id="collapseThree" class="collapse" aria-labelledby="itemFiveHeader" data-parent="#accordion">
+              <div id="collapseFive" class="collapse" aria-labelledby="itemFiveHeader" data-parent="#accordion">
                 <div class="card-body">
                   <p class="side-menu">Getting in the queue</p>
                   <p class="side-menu">Getting in the queue</p> 
@@ -184,11 +179,11 @@
             <p class="subtitle" id="sub-heading"><strong>Getting in the Queue</strong></p>
           </div>
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-              <div class="accordion" id="accordionExample">
+              <div class="accordion" id="getInTheQueueSection">
                   <div class="card">
                     <div class="card-header" id="headingOne">
                       <h2 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#howDoesTheProjectQueue" aria-expanded="false" aria-controls="howDoesTheProjectQueue">
                           <span class="btn-label">
                               How does the project queue system work?
                             </span>  
@@ -199,7 +194,7 @@
                       </h2>
                     </div>
                 
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div id="howDoesTheProjectQueue" class="collapse" aria-labelledby="headingOne" data-parent="#getInTheQueueSection">
                       <div class="card-body">
                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                       </div>
@@ -208,7 +203,7 @@
                   <div class="card">
                     <div class="card-header" id="headingTwo">
                       <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#whyDoINeedToWait" aria-expanded="false" aria-controls="whyDoINeedToWait">
                           <span class="btn-label">
                               Why do I need to wait in a queue to join a project?
                           </span>  
@@ -218,7 +213,7 @@
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div id="whyDoINeedToWait" class="collapse" aria-labelledby="headingTwo" data-parent="#getInTheQueueSection">
                       <div class="card-body">
                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                       </div>
@@ -227,7 +222,7 @@
                   <div class="card">
                     <div class="card-header" id="headingTwo">
                       <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#willIGetOntoAProject" aria-expanded="false" aria-controls="willIGetOntoAProject">
                           <span class="btn-label">
                               Will I get onto a project if I join a queue?
                           </span>  
@@ -237,7 +232,7 @@
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div id="willIGetOntoAProject" class="collapse" aria-labelledby="headingTwo" data-parent="#getInTheQueueSection">
                       <div class="card-body">
                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                       </div>
@@ -246,7 +241,7 @@
                   <div class="card">
                     <div class="card-header" id="headingTwo">
                       <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#queueAndMyPosition" aria-expanded="false" aria-controls="queueAndMyPosition">
                           <span class="btn-label">
                               I am in a project queue and my position in the queue has remained the same for a while.
                           </span>  
@@ -256,7 +251,7 @@
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div id="queueAndMyPosition" class="collapse" aria-labelledby="headingTwo" data-parent="#getInTheQueueSection">
                       <div class="card-body">
                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                       </div>
@@ -265,7 +260,7 @@
                   <div class="card">
                     <div class="card-header" id="headingTwo">
                       <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#byAccident" aria-expanded="false" aria-controls="byAccident">
                           <span class="btn-label">
                               I left a project queue by accident. Can I get my original place in the queue back?
                           </span>  
@@ -275,7 +270,7 @@
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div id="byAccident" class="collapse" aria-labelledby="headingTwo" data-parent="#getInTheQueueSection">
                       <div class="card-body">
                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                       </div>
@@ -284,7 +279,7 @@
                   <div class="card">
                     <div class="card-header" id="headingTwo">
                       <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#higherChanceOfGetting" aria-expanded="false" aria-controls="higherChanceOfGetting">
                           <span class="btn-label">
                             How can I get a higher chance of getting on a project queue faster?
                           </span>  
@@ -294,7 +289,7 @@
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div id="higherChanceOfGetting" class="collapse" aria-labelledby="headingTwo" data-parent="#getInTheQueueSection">
                       <div class="card-body">
                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                       </div>
@@ -303,7 +298,7 @@
                   <div class="card">
                     <div class="card-header" id="headingTwo">
                       <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#supaagentRating" aria-expanded="false" aria-controls="supaagentRating">
                           <span class="btn-label">
                             Do my SupaAgent ratings and Workplace labels impact my position in the queue?
                           </span>  
@@ -313,7 +308,7 @@
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div id="supaagentRating" class="collapse" aria-labelledby="headingTwo" data-parent="#getInTheQueueSection">
                       <div class="card-body">
                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                       </div>
@@ -322,7 +317,7 @@
                   <div class="card">
                     <div class="card-header" id="headingTwo">
                       <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#whyDoINeedLabel" aria-expanded="false" aria-controls="whyDoINeedLabel">
                           <span class="btn-label">
                               Why do we need labels if everyone has to join a project queue?
                           </span>  
@@ -332,7 +327,7 @@
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div id="whyDoINeedLabel" class="collapse" aria-labelledby="headingTwo" data-parent="#getInTheQueueSection">
                       <div class="card-body">
                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                       </div>
@@ -341,7 +336,7 @@
                   <div class="card">
                     <div class="card-header" id="headingTwo">
                       <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#similarProjectBefore" aria-expanded="false" aria-controls="similarProjectBefore">
                           <span class="btn-label">
                               I’ve worked on a similar project before. Will I get priority access in the queue?
                           </span>  
@@ -351,7 +346,7 @@
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div id="similarProjectBefore" class="collapse" aria-labelledby="headingTwo" data-parent="#getInTheQueueSection">
                       <div class="card-body">
                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                       </div>
@@ -360,7 +355,7 @@
                   <div class="card">
                     <div class="card-header" id="headingTwo">
                       <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#unabelToStartThe" aria-expanded="false" aria-controls="unabelToStartThe">
                           <span class="btn-label">
                               What happens if I am unable to start the tutorial when it’s my turn?
                           </span>  
@@ -370,7 +365,7 @@
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div id="unabelToStartThe" class="collapse" aria-labelledby="headingTwo" data-parent="#getInTheQueueSection">
                       <div class="card-body">
                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                       </div>
@@ -379,7 +374,7 @@
                   <div class="card">
                     <div class="card-header" id="headingTwo">
                       <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#refreshThePage" aria-expanded="false" aria-controls="refreshThePage">
                           <span class="btn-label">
                               Do I have to refresh the page when I am in the queue?
                           </span>  
@@ -389,7 +384,7 @@
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div id="refreshThePage" class="collapse" aria-labelledby="headingTwo" data-parent="#getInTheQueueSection">
                       <div class="card-body">
                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                       </div>
@@ -398,7 +393,7 @@
                   <div class="card">
                     <div class="card-header" id="headingTwo">
                       <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#placeOnAProject" aria-expanded="false" aria-controls="placeOnAProject">
                           <span class="btn-label">
                               Am I more likely to get a place on a project if I queue very early?
                           </span>  
@@ -408,7 +403,7 @@
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div id="placeOnAProject" class="collapse" aria-labelledby="headingTwo" data-parent="#getInTheQueueSection">
                       <div class="card-body">
                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                       </div>
@@ -417,7 +412,7 @@
                   <div class="card">
                     <div class="card-header" id="headingTwo">
                       <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#onlineQueueWasFull" aria-expanded="false" aria-controls="onlineQueueWasFull">
                           <span class="btn-label">
                               The online queue was full, but it opened again. How is this possible?
                           </span>  
@@ -427,7 +422,7 @@
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div id="onlineQueueWasFull" class="collapse" aria-labelledby="headingTwo" data-parent="#getInTheQueueSection">
                       <div class="card-body">
                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                       </div>
@@ -436,7 +431,7 @@
                   <div class="card">
                     <div class="card-header" id="headingTwo">
                       <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#atAnyGivenTime" aria-expanded="false" aria-controls="atAnyGivenTime">
                           <span class="btn-label">
                               How many projects can I queue for at any given time?
                           </span>  
@@ -446,7 +441,7 @@
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div id="atAnyGivenTime" class="collapse" aria-labelledby="headingTwo" data-parent="#getInTheQueueSection">
                       <div class="card-body">
                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                       </div>
@@ -455,7 +450,7 @@
                   <div class="card">
                     <div class="card-header" id="headingTwo">
                       <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#whatTermsAndConditions" aria-expanded="false" aria-controls="whatTermsAndConditions">
                           <span class="btn-label">
                               What are the Project Queue terms and conditions?
                           </span>  
@@ -465,7 +460,7 @@
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div id="whatTermsAndConditions" class="collapse" aria-labelledby="headingTwo" data-parent="#getInTheQueueSection">
                       <div class="card-body">
                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                       </div>
@@ -474,7 +469,7 @@
                   <div class="card">
                     <div class="card-header" id="headingThree">
                       <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#averagePassRate" aria-expanded="false" aria-controls="averagePassRate">
                           <span class="btn-label">
                               Why do the average pass rate and tutorial time display nothing?
                           </span>  
@@ -484,31 +479,13 @@
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div id="averagePassRate" class="collapse" aria-labelledby="headingThree" data-parent="#getInTheQueueSection">
                       <div class="card-body">
                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                       </div>
                     </div>
                   </div>
                 </div>
-            <!-- <ul class="list-group">
-              <p class="pst-group-item"><a class="redirect-link" href="#"> How does the project queue system work?</a></p>
-              <p class="pst-group-item"><a class="redirect-link" href="#"> Why do I need to wait in a queue to join a project?</a></p>
-              <p class="pst-group-item"><a class="redirect-link" href="#"> Will I get onto a project if I join a queue?</a></p>
-              <p class="pst-group-item"><a class="redirect-link" href="#"> I am in a project queue and my position in the queue has remained the same for a while.</a></p>
-              <p class="pst-group-item"><a class="redirect-link" href="#"> I left a project queue by accident. Can I get my original place in the queue back?</a></p>
-              <p class="pst-group-item"><a class="redirect-link" href="#"> How can I get a higher chance of getting on a project queue faster?</a></p>
-              <p class="pst-group-item"><a class="redirect-link" href="#"> Do my SupaAgent ratings and Workplace labels impact my position in the queue?</a></p>
-              <p class="pst-group-item"><a class="redirect-link" href="#"> Why do we need labels if everyone has to join a project queue?</a></p>
-              <p class="pst-group-item"><a class="redirect-link" href="#"> I’ve worked on a similar project before. Will I get priority access in the queue?</a></p>
-              <p class="pst-group-item"><a class="redirect-link" href="#"> What happens if I am unable to start the tutorial when it’s my turn?</a></p>
-              <p class="pst-group-item"><a class="redirect-link" href="#"> Do I have to refresh the page when I am in the queue?</a></p>
-              <p class="pst-group-item"><a class="redirect-link" href="#"> Am I more likely to get a place on a project if I queue very early?</a></p>
-              <p class="pst-group-item"><a class="redirect-link" href="#"> The online queue was full, but it opened again. How is this possible?</a></p>
-              <p class="pst-group-item"><a class="redirect-link" href="#"> How many projects can I queue for at any given time?</a></p>
-              <p class="pst-group-item"><a class="redirect-link" href="#"> What are the Project Queue terms and conditions?</a></p>
-              <p class="pst-group-item"><a class="redirect-link" href="#"> Why do the average pass rate and tutorial time display nothing?</a></p>
-            </ul> -->
           </div>
         </div> 
         <div class="row que-row-two">
@@ -516,7 +493,7 @@
             <p class="subtitle" id="que-heading-two"><strong>Tutorial Timeslots</strong></p>
           </div>
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <div class="accordion" id="accordionExample">
+            <div class="accordion" id="tutorialTimeslot">
               <div class="card">
                 <div class="card-header first-accordion" id="helpOne">
                   <h2 class="mb-0">
@@ -531,7 +508,7 @@
                   </h2>
                 </div>
             
-                <div id="collapseOne" class="collapse show" aria-labelledby="helpOne" data-parent="#accordionExample">
+                <div id="collapseOne" class="collapse" aria-labelledby="helpOne" data-parent="#tutorialTimeslot">
                   <div class="card-body">
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                   </div>
@@ -540,7 +517,7 @@
               <div class="card">
                 <div class="card-header" id="helpTwo">
                   <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingTutTwo" aria-expanded="false" aria-controls="headingTutTwo">
                       <span class="btn-label">
                           My tutorial page timed out. What should I do?
                       </span>  
@@ -550,7 +527,7 @@
                     </button>
                   </h2>
                 </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="helpTwo" data-parent="#accordionExample">
+                <div id="headingTutTwo" class="collapse" aria-labelledby="helpTwo" data-parent="#tutorialTimeslot">
                   <div class="card-body">
                     <span class="btn-label">
                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
@@ -564,7 +541,7 @@
               <div class="card">
                 <div class="card-header" id="helpThree">
                   <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingTutThree" aria-expanded="false" aria-controls="headingTutThree">
                       <span class="btn-label">
                           How should I get ready for the tutorial?
                       </span>  
@@ -574,7 +551,7 @@
                     </button>
                   </h2>
                 </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="helpThree" data-parent="#accordionExample">
+                <div id="headingTutThree" class="collapse" aria-labelledby="helpThree" data-parent="#tutorialTimeslot">
                   <div class="card-body">
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                   </div>
@@ -583,7 +560,7 @@
               <div class="card">
                 <div class="card-header" id="helpFour">
                   <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingTutFour" aria-expanded="false" aria-controls="headingTutFour">
                       <span class="btn-label">
                           I did not manage to complete the project tutorial. How many times am I allowed to try again?
                       </span>  
@@ -593,7 +570,7 @@
                     </button>
                   </h2>
                 </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="helpFour" data-parent="#accordionExample">
+                <div id="headingTutFour" class="collapse" aria-labelledby="helpFour" data-parent="#tutorialTimeslot">
                   <div class="card-body">
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                   </div>
@@ -612,7 +589,7 @@
                     </button>
                   </h2>
                 </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="helpFive" data-parent="#accordionExample">
+                <div id="collapseTwo" class="collapse" aria-labelledby="helpFive" data-parent="#tutorialTimeslot">
                   <div class="card-body">
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                   </div>
@@ -621,7 +598,7 @@
               <div class="card">
                 <div class="card-header" id="helpSix">
                   <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingTutFive" aria-expanded="false" aria-controls="headingTutFive">
                       <span class="btn-label">
                           What happens if I don’t finish the tutorial or assessment in time?
                       </span>  
@@ -631,7 +608,7 @@
                     </button>
                   </h2>
                 </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="helpSix" data-parent="#accordionExample">
+                <div id="headingTutFive" class="collapse" aria-labelledby="helpSix" data-parent="#tutorialTimeslot">
                   <div class="card-body">
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                   </div>
@@ -640,7 +617,7 @@
               <div class="card">
                 <div class="card-header" id="helpSeven">
                   <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingTutSix" aria-expanded="false" aria-controls="headingTutSix">
                       <span class="btn-label">
                           I passed the project tutorial but did not get assigned to the project. Why?
                       </span>  
@@ -650,7 +627,7 @@
                     </button>
                   </h2>
                 </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="helpSeven" data-parent="#accordionExample">
+                <div id="headingTutSix" class="collapse" aria-labelledby="helpSeven" data-parent="#tutorialTimeslot">
                   <div class="card-body">
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                   </div>
@@ -659,7 +636,7 @@
               <div class="card">
                 <div class="card-header" id="helpEight">
                   <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingTutSeven" aria-expanded="false" aria-controls="headingTutSeven">
                       <span class="btn-label">
                           How long does a project tutorial or assessment take?
                       </span>  
@@ -669,7 +646,7 @@
                     </button>
                   </h2>
                 </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="helpEight" data-parent="#accordionExample">
+                <div id="headingTutSeven" class="collapse" aria-labelledby="helpEight" data-parent="#tutorialTimeslot">
                   <div class="card-body">
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                   </div>
@@ -683,7 +660,6 @@
     </div>
   </div>
 </section>
-
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 </body>
