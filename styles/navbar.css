@@ -1,10 +1,11 @@
-@font-face {
+/* @font-face {
     font-family: Avenir;
     src: url(assets/fonts/FontsFree-Net-AvenirLTStd-Book.ttf);
-}
+} */
 @font-face {
     font-family: FuturaFont;
-    src: url(assets/fonts/FuturaFont/FuturaStd\ Heavy.otf);
+    /* src: url(assets/fonts/FuturaFont/FuturaStd\ Heavy.otf); */
+    src: url(assets/fonts/FuturaFont/FuturaStd_Heavy.otf);
 }
 
 
@@ -12,9 +13,9 @@
 .page-header {
     top: 0px;
     left: 0px;
-    width: 1280px;
+    /* width: 1280px; */
     height: 50px;
-    font-family: Avenir;
+    font-family: FuturaFont;
     background: transparent linear-gradient(271deg, #76CCDB 0%, #1E96C7 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -38,6 +39,7 @@
     left: 160px;
     width: 126px;
     /* height: 16px; */
+    vertical-align:middle;
     text-align: left;
     font-size: 16px;
     font: FuturaFont;
@@ -58,7 +60,7 @@
 .nav-link {
     top: 20px;
     left: 293px;
-    width: 75px;
+    width: 105px;
     /* height: 14px; */
     text-align: left;
     font-size: 12px;
@@ -66,6 +68,12 @@
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
+}
+
+.nav-link:hover {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 #nav-tab {

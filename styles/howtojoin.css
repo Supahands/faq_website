@@ -28,8 +28,19 @@
     height: 46px;
     border: none;
 }
+
+ .accordion .card .topcard {
+    border-top: transparent;
+}
+
+.htj-row-three .accordion .card .card-body {
+    padding: 0.75rem 2.5rem;
+    color: #4A4A4A;
+}
+
 .htj-row-three .accordion .card {
     width: 730px;
+    border-left-color: #4A4A4A;
     /* height: 46px; */
     opacity: 1;
 }
@@ -87,8 +98,6 @@
 }
 
 .htj-row-three .htj-heading-two {
-    /* top: 167px; */
-    /* left: 400px; */
     width: 741px;
     height: 37px;
     text-align: left;
@@ -96,6 +105,5 @@
     font: Avenir;
     letter-spacing: 0px;
     color: #67669D;
-    /* color: #4A4A4A; */
     opacity: 1;
 }

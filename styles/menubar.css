@@ -1,20 +1,22 @@
 @font-face {
-    font-family: Avenir;
-    src: url(assets/fonts/FontsFree-Net-AvenirLTStd-Book.ttf);
-  }
-  @font-face {
-    font-family: FuturaFont;
-    src: url(assets/fonts/FuturaFont/FuturaStd\ Heavy.otf);
-  }
+  font-family: Avenir;
+  src: url('../assets/fonts/FontsFree-Net-AvenirLTStd-Book.ttf');
+}
+@font-face {
+  font-family: FuturaStd;
+  src: url(../assets/fonts/FuturaFont/FuturaStd\ Heavy.otf);
+  /* src: url('../assets/fonts/FuturaFont/FuturaStd\ Heavy.otf'); */
+  /* src: url('../assets/fonts/FuturaFont/FuturaStd_Heavy.otf'); */
+}
   
-  body {
-    padding: 0;
-    margin: 0;
-    font-family: Avenir;
-    background: #F7F7F7 0% 0% no-repeat padding-box;
-  }
-  
-  /* -----------------      menu bar section      -------------*/
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Avenir;
+  background: #F7F7F7 0% 0% no-repeat padding-box;
+}
+
+/* -----------------      menu bar section      -------------*/
 #menunav {
   top: 60px;
   left: 110px;
@@ -34,11 +36,17 @@
   height: 14px;
   text-align: left;
   font-size: 12px;
-  font: Avenir;
+  font: FuturaStd;
   letter-spacing: 1.2px;
-  color: #67669D;
+  color: #888888;
   text-transform: uppercase;
   opacity: 1;
+}
+
+#projectlink-one:hover {
+  color: #67669D;
+  text-decoration: underline;
+  font-weight: bold;
 }
   
 #projectlink-two {
@@ -48,11 +56,17 @@
   height: 14px;
   text-align: left;
   font-size: 12px;
-  font: Avenir;
+  font: FuturaStd;
   letter-spacing: 1.2px;
   color: #888888;
   text-transform: uppercase;
   opacity: 1;
+}
+
+#projectlink-two:hover {
+  color: #67669D;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 #project-tab-one {
@@ -78,7 +92,7 @@
   height: 14px;
   text-align: left;
   font-size: 12px;
-  font: Avenir;
+  font: FuturaStd;
   letter-spacing: 1.2px;
   color: #888888;
   text-transform: uppercase;
@@ -100,11 +114,17 @@
   height: 14px;
   text-align: left;
   font-size: 12px;
-  font: Avenir;
+  font: FuturaStd;
   letter-spacing: 1.2px;
   color: #888888;
   text-transform: uppercase;
   opacity: 1;
+}
+
+#projectlink-three:hover {
+  color: #67669D;
+  text-decoration: underline;
+  font-weight: bold;
 }
   
 #project-tab-four {
@@ -122,11 +142,17 @@
   height: 14px;
   text-align: left;
   font-size: 12px;
-  font: Avenir;
+  font: FuturaStd;
   letter-spacing: 1.2px;
   color: #888888;
   text-transform: uppercase;
   opacity: 1;
+}
+
+#projectlink-four:hover {
+  color: #67669D;
+  text-decoration: underline;
+  font-weight: bold;
 }
 /* --------------       end      ------------ */
   
