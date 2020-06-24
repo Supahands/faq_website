@@ -29,7 +29,7 @@
     border: none;
 }
 
- .accordion .card .topcard {
+.accordion .card .topcard {
     border-top: transparent;
 }
 
@@ -41,21 +41,18 @@
 .htj-row-three .accordion .card {
     width: 730px;
     border-left-color: #4A4A4A;
-    /* height: 46px; */
     opacity: 1;
 }
 
 .htj-row-three {
     padding-left: 20px;
     width: 741px;
-    /* height: 275px; */
     opacity: 1;
 }
 
 .htj-row-three #join-column #htj-heading-two {
     margin-top: 50px;
     width: 430px;
-    /* height: 19px; */
     text-align: left;
     font: Avenir;
     letter-spacing: 0px;
@@ -106,4 +103,34 @@
     letter-spacing: 0px;
     color: #67669D;
     opacity: 1;
+}
+
+.sidebar #accordion .card .card-body .nav {
+    /* left: 150px; */
+    /* top: 208px; */
+    color: #4A4A4A;
+}
+
+.sidebar #accordion .card .side-menu {
+    padding-left: 0px;
+    height: 40px;
+}
+
+.sidebar #accordion .card .side-menu-link {
+    top: 208px;
+    left: 150px;
+    width: 100%;
+    padding-left: 0px;
+    text-align: left;
+    font-size: 14px;
+    font: FuturaFont;
+    letter-spacing: 0px;
+    color: #67669D;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.sidebar .nav-link:hover {
+    color: #67669D;
+    text-decoration: none;
 }
