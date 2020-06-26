@@ -21,6 +21,7 @@ body {
   top: 60px;
   left: 110px;
   width: 1060px;
+  /* position: fixed; */
   height: 50px;
   margin-top: 10px;
   background: #FFFFFF 0% 0% no-repeat padding-box;

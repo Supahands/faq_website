@@ -19,6 +19,7 @@ background: #F7F7F7 0% 0% no-repeat padding-box;
 #sidebar-section {
     /* top: 110px; */
     /* left: 110px; */
+    /* position: fixed; */
     padding-left: 0px;
     padding-right: 0px;
     width: 250px;
