@@ -18,6 +18,15 @@
 
 }
 
+@font-face {
+    font-family: Avenir;
+    src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/AvenirLTStd-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: FuturaFont;
+    src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/FuturaStd-Heavy.otf") format("opentype");
+}
 
 /* -------- tutorial accordion --------- */
 .htj-row-three .accordion .card .card-header {

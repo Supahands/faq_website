@@ -1,13 +1,12 @@
-/* @font-face {
-    font-family: Avenir;
-    src: url(assets/fonts/FontsFree-Net-AvenirLTStd-Book.ttf);
-} */
 @font-face {
-    font-family: FuturaFont;
-    /* src: url(assets/fonts/FuturaFont/FuturaStd\ Heavy.otf); */
-    src: url(assets/fonts/FuturaFont/FuturaStd_Heavy.otf);
+    font-family: Avenir;
+    src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/AvenirLTStd-Black.otf") format("opentype");
 }
 
+@font-face {
+    font-family: FuturaFont;
+    src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/FuturaStd-Heavy.otf") format("opentype");
+}
 
 /*------------    navigation bar    ----------*/
 .page-header {
@@ -109,7 +108,7 @@
 }
 
 .navbtn {
-    height: 48px;
+    vertical-align: middle;
     text-align: left;
     margin-right: 70px;
     font-size: 16px;

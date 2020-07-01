@@ -1,12 +1,11 @@
 @font-face {
   font-family: Avenir;
-  src: url('../assets/fonts/FontsFree-Net-AvenirLTStd-Book.ttf');
+  src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/AvenirLTStd-Black.otf") format("opentype");
 }
+
 @font-face {
-  font-family: FuturaStd;
-  src: url(../assets/fonts/FuturaFont/FuturaStd\ Heavy.otf);
-  /* src: url('../assets/fonts/FuturaFont/FuturaStd\ Heavy.otf'); */
-  /* src: url('../assets/fonts/FuturaFont/FuturaStd_Heavy.otf'); */
+  font-family: FuturaFont;
+  src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/FuturaStd-Heavy.otf") format("opentype");
 }
   
 body {
@@ -42,6 +41,12 @@ body {
   color: #888888;
   text-transform: uppercase;
   opacity: 1;
+}
+
+.projectlink-active {
+  color: #67669D !important;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 #projectlink-one:hover {
