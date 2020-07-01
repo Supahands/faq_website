@@ -20,7 +20,7 @@
 
 @font-face {
     font-family: Avenir;
-    src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/AvenirLTStd-Black.otf") format("opentype");
+    src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/AvenirLTStd-Roman.otf") format("opentype");
 }
 
 @font-face {
@@ -44,10 +44,6 @@
     opacity: 1;
 }
 
-.featured-title {
-
-}
-
 .main-body-section {
     top: 95px;
     left: 110px;
@@ -64,6 +60,7 @@
     opacity: 1;
     font-size: 14px;
     font: Avenir;
+    font-weight: normal;
     margin-top: 20px;
     margin-right: 20px;
     margin-left: 20px;
@@ -72,10 +69,8 @@
 .help-center {
     top: 115px;
     left: 150px;
+    font-weight: normal;
     margin-bottom: 22px;
-    /* margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 40px; */
     height: 36px;
     opacity: 1;
 }
@@ -107,11 +102,10 @@
 .help-contact {
     top: 268px;
     left: 150px;
-    /* width: 634px; */
-    height: 37px;
     text-align: left;
     font-size: 14px;
     font: Avenir;
+    font-weight: normal;
     letter-spacing: 0px;
     opacity: 1;
 }

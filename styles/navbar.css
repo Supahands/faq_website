@@ -12,8 +12,6 @@
 .page-header {
     top: 0px;
     left: 0px;
-    /* width: 1280px; */
-    /* position: fixed; */
     height: 50px;
     font-family: FuturaFont;
     background: transparent linear-gradient(271deg, #76CCDB 0%, #1E96C7 100%) 0% 0% no-repeat padding-box;
@@ -23,7 +21,6 @@
 #nav-container {
     height: 48px;
     opacity: 1;
-    /* width: 1060px; */
 }
 
 #navbar-brand {
@@ -55,19 +52,13 @@
 }
 
 .nav-item {
-    /* width: 75px; */
-    /* height: 48px; */
-    /* margin-left: 16px; */
     min-width: 90px;
-    /* padding-left: 16px; */
-    /* padding-right: 16px; */
 }
 
 .nav-link {
     top: 20px;
     left: 293px;
     width: 105px;
-    /* height: 14px; */
     text-align: left;
     font-size: 12px;
     font: FuturaFont;

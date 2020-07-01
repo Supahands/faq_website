@@ -81,10 +81,6 @@ body {
 }
 
 .navbtn {
-  /* top: 16px;
-left: 983px;
-width: 129px; */
-/* height: 19px; */
 text-align: left;
 font: 85 Heavy 16px/20px Avenir;
 letter-spacing: 0px;
@@ -159,6 +155,10 @@ opacity: 1;
   opacity: 0.49;
 }
 
+.help-center {
+  font: Avenir;
+}
+
 .fa-search {
   color: #FFFFFF;
   font-size: 1px;
@@ -169,12 +169,7 @@ opacity: 1;
   font-size: 14px;
   font: Avenir;
   padding-left: 40px;
-  /* padding-top: 20px; */
   padding-right: 20px;
-  /* top: 268px; */
-  /* left: 150px; */
-  /* width: 634px; */
-  /* height: 37px; */
   text-align: left;
   letter-spacing: 0px;
   opacity: 1;

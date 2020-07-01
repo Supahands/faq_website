@@ -24,6 +24,11 @@
 }
 
 @font-face {
+    font-family: FuturaStd-Book;
+    src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/FuturaStd-Book.otf") format("opentype");
+}
+
+@font-face {
     font-family: FuturaFont;
     src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/FuturaStd-Heavy.otf") format("opentype");
 }
@@ -63,7 +68,7 @@
     margin-top: 50px;
     width: 430px;
     text-align: left;
-    font: Avenir;
+    font-family: Avenir;
     letter-spacing: 0px;
     color: #67669D;
     opacity: 1;
@@ -90,6 +95,7 @@
 .htj-row-three .btn-label {
     font-size: 14px;
     float: left;
+    font-family: AvenirLTStd-Roman;
 }
 
 .htj-row-three .fa-stack {
@@ -130,9 +136,10 @@
     left: 150px;
     width: 100%;
     padding-left: 0px;
+    padding-right: 0px;
     text-align: left;
-    font-size: 14px;
-    font: FuturaFont;
+    font-size: 16px;
+    font-family: FuturaStd-Book;
     letter-spacing: 0px;
     color: #67669D;
     text-decoration: none;
