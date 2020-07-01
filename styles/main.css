@@ -22,7 +22,7 @@
 
 @font-face {
   font-family: Avenir;
-  src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/AvenirLTStd-Black.otf") format("opentype");
+  src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/AvenirLTStd-Roman.otf") format("opentype");
 }
 
 @font-face {
@@ -61,9 +61,6 @@ body {
 
 .nav-link {
   top: 20px;
-  /* left: 293px; */
-  /* width: 63px; */
-  /* height: 14px; */
   text-align: left;
   font: 55 Roman 12px/14px Avenir;
   letter-spacing: 0px;
@@ -151,13 +148,6 @@ opacity: 1;
 }
 
 .gotopage {
-  top: 0px;
-  left: 16px;
-  width: 175px;
-  height: 17px;
-  text-align: left;
-  font: 55 Roman 14px/20px Avenir;
-  letter-spacing: 0px;
   color: #337AB7;
 }
 
