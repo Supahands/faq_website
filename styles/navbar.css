@@ -76,6 +76,12 @@
     opacity: 1;
 }
 
+.nav-active {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 .nav-link:hover {
     color: white;
     text-decoration: underline;
