@@ -7,7 +7,7 @@
   font-family: FuturaFont;
   src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/FuturaStd-Heavy.otf") format("opentype");
 }
-  
+
 body {
   padding: 0;
   margin: 0;
@@ -18,17 +18,14 @@ body {
 /* -----------------      menu bar section      -------------*/
 #menunav {
   top: 60px;
-  left: 110px;
   width: 1060px;
-  /* position: fixed; */
   height: 50px;
-  margin-top: 10px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 2px 5px #898CB84D;
   border-radius: 10px 10px 0px 0px;
   opacity: 1;
 }
-  
+
 #projectlink-one {
   top: 81px;
   left: 136px;
@@ -54,7 +51,7 @@ body {
   text-decoration: underline;
   font-weight: bold;
 }
-  
+
 #projectlink-two {
   top: 81px;
   left: 254px;
@@ -90,7 +87,7 @@ body {
   height: 28px;
   opacity: 1;
 }
-  
+
 #projectlink-two {
   top: 81px;
   left: 254px;
@@ -112,7 +109,7 @@ body {
   height: 28px;
   opacity: 1;
 }
-  
+
 #projectlink-three {
   top: 81px;
   left: 254px;
@@ -132,7 +129,7 @@ body {
   text-decoration: underline;
   font-weight: bold;
 }
-  
+
 #project-tab-four {
   top: 81px;
   left: 470px;
@@ -160,5 +157,5 @@ body {
   text-decoration: underline;
   font-weight: bold;
 }
+
 /* --------------       end      ------------ */
-  
