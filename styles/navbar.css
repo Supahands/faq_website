@@ -36,7 +36,7 @@
     left: 160px;
     width: 126px;
     /* height: 16px; */
-    vertical-align:middle;
+    vertical-align: middle;
     text-align: left;
     font-size: 16px;
     font: FuturaFont;
@@ -114,6 +114,7 @@
     color: #FFFFFF;
     opacity: 1;
 }
+
 .navbtn:hover {
     color: #FFFFFF;
 }
@@ -123,7 +124,7 @@
     left: 123px;
     width: 37px;
     height: 37px;
-  /* background: transparent url('img/Logo-Fist.png') 0% 0% no-repeat padding-box; */
+    /* background: transparent url('img/Logo-Fist.png') 0% 0% no-repeat padding-box; */
     opacity: 1;
 }
 
@@ -154,4 +155,21 @@
 
 #searchlogo {
     align-content: center;
+}
+
+.heading-gap {
+    height: 10px;
+    background-color: #f7f7f7;
+}
+
+div.card {
+    border-radius: 0rem !important;
+}
+
+div.card-header {
+    border-radius: 0rem !important;
+}
+
+html {
+    scroll-padding-top: 120px;
 }
