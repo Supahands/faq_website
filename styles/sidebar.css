@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: FuturaFont;
     src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/FuturaStd-Heavy.otf") format("opentype");
@@ -15,13 +14,14 @@
 }
 
 body {
-padding: 0;
-margin: 0;
-font-family: inherit;
-background: #F7F7F7 0% 0% no-repeat padding-box;
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
 }
 
 #sidebar-section {
+    top: 115px;
     padding-left: 0px;
     padding-right: 0px;
     width: 250px;
@@ -70,13 +70,13 @@ background: #F7F7F7 0% 0% no-repeat padding-box;
     float: right;
 }
 
-.project-accordion  .card-header {
+.project-accordion .card-header {
     border-bottom-color: #EDEFF0;
     background: transparent;
     padding-right: 0px;
 }
 
 .project-accordion .card,
-    .myaccordion .card:last-child .card-header {
+.myaccordion .card:last-child .card-header {
     border: none;
 }
