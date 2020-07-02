@@ -150,3 +150,13 @@
     color: #67669D;
     text-decoration: none;
 }
+
+.card-body .mt-3 {
+    font-size: 14px;
+    font: Avenir;
+}
+
+.card-body .mt-0 {
+    font-size: 14px;
+    font: Avenir;
+}
