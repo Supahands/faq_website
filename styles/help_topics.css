@@ -27,7 +27,7 @@
 
 /* -------- queue accordion --------- */
 
-.project-row-one .accordion .card {
+.accordion-question .accordion .card {
     width: 730px;
     /* height: 46px; */
     background: transparent;
@@ -38,7 +38,7 @@
     border-top: transparent;
 }
 
-.project-row-one .accordion .card .card-header {
+.accordion-question .accordion .card .card-header {
     background: transparent;
     border-bottom-color: #EDEFF0;
     border-top-color: transparent;
@@ -51,12 +51,12 @@
     color: #337AB7;
 }
 
-.project-row-one .accordion .card .card-body {
+.accordion-question .accordion .card .card-body {
     padding: 0.75rem 2.5rem;
     color: #4A4A4A;
 }
 
-.project-row-one .accordion .card .collapsed {
+.accordion-question .accordion .card .collapsed {
     text-align: left;
     font-size: 14px;
     font: Avenir;
@@ -65,7 +65,7 @@
     opacity: 1;
 }
 
-.project-row-one .mb-0 .btn {
+.accordion-question .mb-0 .btn {
     width: 100%;
 }
 
@@ -74,7 +74,7 @@
     font-family: AvenirLTStd-Roman;
 }
 
-.project-row-one .fa-stack {
+.accordion-question .fa-stack {
     font-size: 14px;
     float: right;
     width: 0px;
@@ -83,73 +83,14 @@
     margin-right: -5px;
 }
 
-.project-row-one .card,
+.accordion-question .card,
 .myaccordion .card:last-child .card-header {
     border-right: none;
     border-left: none;
 }
 
-.project-row-one .first-accordion {
+.accordion-question .first-accordion {
     border-top: none;
-}
-
-/* -------- tutorial accordion --------- */
-.que-row-two {
-    padding-left: 20px;
-    width: 741px;
-    /* height: 300px; */
-    opacity: 1;
-}
-
-.que-row-two .accordion .card .card-header {
-    background: transparent;
-    border-bottom-color: #EDEFF0;
-    border-top-color: transparent;
-    margin-top: -9px;
-    height: 46px;
-    border: none;
-}
-
-.que-row-two .accordion .card .card-body {
-    padding: 0.75rem 2.5rem;
-    color: #4A4A4A;
-}
-
-.que-row-two .accordion .card {
-    width: 730px;
-    /* height: 46px; */
-    opacity: 1;
-}
-
-.que-row-two .card,
-.myaccordion .card:last-child .card-header {
-    border-right: none;
-    border-left: none;
-}
-
-.que-row-two .accordion .card .collapsed {
-    text-align: left;
-    font-size: 14px;
-    font: Avenir;
-    letter-spacing: 0px;
-    color: #337AB7;
-    opacity: 1;
-}
-
-.que-row-two .card,
-.myaccordion .card:last-child .card-header {
-    /* border: none; */
-}
-
-.que-row-two .mb-0 .btn {
-    width: 100%;
-}
-
-.que-row-two .fa-stack {
-    font-size: 14px;
-    float: right;
-    width: 0px;
-    color: #4A4A4A;
 }
 
 .sidebar-title {
