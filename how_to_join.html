@@ -16,6 +16,7 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </head>
+<!-- Blue Navbar start -->
 <header class="page-header header container-fluid fixed-top" id="header-section">
   <nav class="navbar navbar-expand-lg container" id="nav-container">
     <a class="navbar-brand" id="navbar-brand" href="index.html">
@@ -29,7 +30,7 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link nav-active" id="nav-link" href="help_topics.html">Help Topic</a>
+            <a class="nav-link nav-active" id="nav-link" href="how_to_join.html">Help Topic</a>
           </li>
           <!-- <li class="nav-item" id="nav-div">
             <a class="nav-link" id="nav-tab" href="#">Guides</a>
@@ -42,6 +43,7 @@
       </div>
   </nav>
 </header>
+<!-- Blue Navbar end -->
 <body>
 <div class="heading-gap fixed-top" style="top:50px"></div>
 <section class="container-fluid fixed-top" id="menunav">
@@ -76,14 +78,10 @@
         <div class="sidebar">
           <div id="accordion" class="project-accordion">
             <div class="card">
-              <div class="card-header sidebar-title" data-toggle="collapse" data-target="#getting-started" aria-expanded="false">
-                <h5 class="mb-0">
-                  <div class="btn btn-link" id="how-to-join">
-                    <span class="side-title">Getting Started</span>
-                    <span class="fa-stack fa-sm">
-                      <i class="fas fa-chevron-down"></i> 
-                    </span>
-                  </div>
+              <div class="card-header sidebar-title mb-0 mt-3 pb-0" data-toggle="collapse" data-target="#getting-started" aria-expanded="false">
+                <h5 class="accordion-header">
+                  <span class="side-title">Getting Started</span>
+                  <i class="fas fa-stack fa-sm fa-chevron-down"></i> 
                 </h5>
               </div>
               <div id="getting-started" class="collapse" data-parent="#accordion">
@@ -99,7 +97,7 @@
             <div class="card">
               <div class="card-header sidebar-title" id="itemTwoHeader">
                 <h5 class="mb-0">
-                  <button class="btn do-now btn-link collapsed" id="how-to-join"  data-toggle="collapse" data-target="#projectQueue" aria-expanded="false" aria-controls="projectQueue">
+                  <button class="btn do-now btn-link collapsed accordion"  data-toggle="collapse" data-target="#projectQueue" aria-expanded="false" aria-controls="projectQueue">
                     <span class="side-title">Project Queue</span>
                     <span class="fa-stack fa-sm">
                       <i class="fas fa-chevron-down"></i> 
@@ -127,10 +125,11 @@
         </div>
         <!-- Sidebar accordion section ends -->
       </div>
+      <!-- Main Content Area -->
       <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8 pt-3">
         <p class="title main-title"><strong>Getting Started</strong></p>
         <p class="project-sub-title">Looking to join a project and start work? Here’s all that you need to know.</p>
-        <!-- main section -->
+        <!-- Main sections -->
         <div class="row project-row-one" id="getting-started-how-to-join">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="project-column">
             <p id="sub-heading"><strong>How to join</strong></p>
@@ -154,7 +153,7 @@
                 <div id="how-to-join-a-project" class="collapse" data-parent="#getting-started-accordion">
                   <div class="card-body">
                     <b>There are currently two ways to join a project depending on the project type.</b></br><br>
-                    <b>1. Request to Join</b><br>
+                    <b>1. Request to Join</b>
                     <ul>
                       <li>On Workplace, go to New Projects.</li>
                       <li>Click the “Request to Join” button on any available project. The project will now appear in your My Projects >
@@ -163,8 +162,7 @@
                       <li>Once approved, you may be required to sit for a Tutorial or Assessment before being able to start the project.
                       </li>
                     </ul>
-                    <br>
-                    <b>2. Join Queue</b><br>
+                    <b>2. Join Queue</b>
                     <ul>
                       <li>On Workplace, go to New Projects.</li>
                       <li>Click the "Join Queue" button on any available project.</li>
@@ -808,6 +806,7 @@
           </div>
         </div>         
       </div>
+      <!-- Main Content Area -->
       <br>
     </div>
   </div>

@@ -1,27 +1,20 @@
 /* ---- Small devices (landscape phones, 576px and up) --- */
-@media (min-width: 576px) {
-
-}
+@media (min-width: 576px) {}
 
 /* ---- Medium devices (tablets, 768px and up)--- */
-@media (min-width: 768px) {
-    
-}
+@media (min-width: 768px) {}
 
 /* ---- Large devices (desktops, 992px and up)--- */
-@media (min-width: 992px) { 
-
-}
+@media (min-width: 992px) {}
 
 /* ---- Extra large devices (large desktops, 1200px and up)--- */
-@media (min-width: 1200px) { 
-
-}
+@media (min-width: 1200px) {}
 
 @font-face {
     font-family: Avenir;
     src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/AvenirLTStd-Black.otf") format("opentype");
 }
+
 @font-face {
     font-family: AvenirLTStd-Roman;
     src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/AvenirLTStd-Roman.otf") format("opentype");
@@ -82,7 +75,7 @@
 }
 
 .project-row-one .card,
-    .myaccordion .card:last-child .card-header {
+.myaccordion .card:last-child .card-header {
     border-right: none;
     border-left: none;
 }
@@ -120,10 +113,11 @@
 }
 
 .que-row-two .card,
-    .myaccordion .card:last-child .card-header {
+.myaccordion .card:last-child .card-header {
     border-right: none;
     border-left: none;
 }
+
 .que-row-two .accordion .card .collapsed {
     text-align: left;
     font-size: 14px;
@@ -134,7 +128,7 @@
 }
 
 .que-row-two .card,
-    .myaccordion .card:last-child .card-header {
+.myaccordion .card:last-child .card-header {
     /* border: none; */
 }
 
@@ -157,4 +151,9 @@
 
 .sidebar-title {
     padding-left: 0px;
+    cursor: pointer;
+}
+
+.sidebar-title:hover {
+    text-decoration: underline;
 }
