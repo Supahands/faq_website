@@ -61,22 +61,22 @@ body {
     font-family: FuturaFont;
 }
 
-.project-accordion {
+.sidebar-accordion {
     background: transparent;
 }
 
-.project-accordion .fa-stack {
+.sidebar-accordion .fa-stack {
     font-size: 14px;
     float: right;
 }
 
-.project-accordion .card-header {
+.sidebar-accordion .card-header {
     border-bottom-color: #EDEFF0;
     background: transparent;
     padding-right: 0px;
 }
 
-.project-accordion .card,
-.myaccordion .card:last-child .card-header {
+.sidebar-accordion .card,
+.card:last-child .card-header {
     border: none;
 }

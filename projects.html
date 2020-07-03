@@ -4,11 +4,10 @@
   <title>Projects</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">  <link rel="stylesheet" type="text/css" href="styles/howtojoin.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">  
   <link rel="stylesheet" type="text/css" href="styles/menubar.css">
   <link rel="stylesheet" type="text/css" href="styles/sidebar.css">
   <link rel="stylesheet" type="text/css" href="styles/help_topics.css">
-  <link rel="stylesheet" type="text/css" href="styles/queue.css">
   <link rel="stylesheet" type="text/css" href="styles/navbar.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/e087952ad9.js" crossorigin="anonymous"></script>
@@ -70,13 +69,13 @@
     </div>
   </div>
 </section>
-<section class="container-fluid" id="project-body">
+<section class="container-fluid project-body">
   <div class="container">
     <div class="row project-main-row">
       <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 sticky-top" id="sidebar-section">
         <!-- Sidebar accordion section starts -->
         <div class="sidebar">
-          <div id="accordion" class="project-accordion">
+          <div id="accordion" class="sidebar-accordion">
             <div class="card">
               <div class="card-header sidebar-title mb-0 mt-3 pb-0" data-toggle="collapse" data-target="#getting-started" aria-expanded="false">
                 <h5 class="accordion-header">
@@ -129,7 +128,7 @@
         <!-- Main sections -->
         <div class="row accordion-question" id="getting-started-how-to-join">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <p id="sub-heading"><strong>How to join</strong></p>
+            <p class="sub-heading"><strong>How to join</strong></p>
           </div>
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <div class="accordion" id="getting-started-accordion">
@@ -155,7 +154,8 @@
                   <ul>
                     <li>On Workplace, go to New Projects.</li>
                     <li>Click the "Join Queue" button on any available project.</li>
-                    <li>Note your Tutorial timeslot. Your timeslot will only be held for an additional 10 minutes if you are late.</li>
+                    <li>Note your Tutorial timeslot. Your timeslot will only be held for an additional 10 minutes if you are late. <span data-toggle="collapse" data-target="#how-to-get-a-tutorial-slot" aria-expanded="false"
+                aria-controls="how-to-get-a-tutorial-slot">Here's why.</span></li>
                     <li>The project will now appear on Workplace > Projects in Queue.</li>
                   </ul>
                 </div>
@@ -189,7 +189,7 @@
                   Once you have been assigned to a project and have passed any prerequisites (Tutorials and/or Assessments), the project
                   will appear on Workplace > My Projects.
                   <ul>
-                    <li>Go to <a href="https://workplace.supahands.com">Workplace Home</a>.</li>
+                    <li>Go to <a href="https://workplace.supahands.com" target="_blank">Workplace Home</a>.</li>
                     <li>Scroll to My Projects.</li>
                     <li>Note your Tutorial timeslot. Your timeslot will only be held for an additional 10 minutes if you are late.</li>
                     <li>Click the green “Work” button.</li>
@@ -207,7 +207,7 @@
         <!-- Quick Guide -->
         <div class="row accordion-question pt-5" id="projectQueueQuickGuide">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <p id="sub-heading"><strong>Quick Guide</strong></p>
+            <p class="sub-heading"><strong>Quick Guide</strong></p>
           </div>
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <div class="accordion" id="quick-guide-accordion">
@@ -220,12 +220,16 @@
                 </div>
         
                 <div id="what-is-a-project-queue" class="card-body collapse" data-parent="#quick-guide-accordion">
-                  A project queue is a new way of joining a project on Workplace. Each SupaAgent who joins a project queue will
+                  A project queue is a new way of joining a project on <a href="https://workplace.supahands.com" target="_blank">Workplace</a>. Each SupaAgent who joins a project queue will
                   be assigned a tutorial slot.
                   Every project queue has an allocated number of tutorial slots. Once the queue is full, no more tutorial slots
                   will be assigned.
-                  For further information please refer to our Supahands Project <a href="#">Queue terms and conditions</a>. If
-                  you have any questions about the process, please <a href="#">submit a request</a>.
+                  For further information please refer to our 
+                  <span class="linked-text" data-toggle="collapse" aria-expanded="false" 
+                    aria-controls="what-are-the-project-queue-terms-and-conditions" 
+                    data-target='#what-are-the-project-queue-terms-and-conditions'>
+                    Supahands Project Queue terms and conditions
+                  </span>. If you have any questions about the process, please <a href="mailto:supaagents.hub@supahands.com">submit a request</a>.
                 </div>
               </div>
               <!-- #what-is-a-project-queue -->
@@ -322,7 +326,7 @@
                   data-parent="#quick-guide-accordion">
                   Once you have successfully joined a project queue:
                   <ul>
-                    <li>Go to Workplace.</li>
+                    <li>Go to <a href="https://workplace.supahands.com" target="_blank">Workplace</a>.</li>
                     <li>Scroll down to Projects in Queue.</li>
                     <li>Find the project you’re looking for</li>
                     <li>The tutorial time slot will be displayed in the same row</li>
@@ -343,7 +347,7 @@
                 <div id="how-do-I-leave-a-project-queue" class="card-body collapse" data-parent="#quick-guide-accordion">
                   If you would like to leave a project queue:
                   <ul>
-                    <li>Go to Workplace.</li>
+                    <li>Go to <a href="https://workplace.supahands.com" target="_blank">Workplace</a>.</li>
                     <li>Scroll down to Projects in Queue.</li>
                     <li>Find the project you’re looking for</li>
                     <li>Click the blue View Details button</li>
@@ -378,7 +382,7 @@
         <!-- Tutorial -->
         <div class="row accordion-question pt-5" id="projectQueueTutorial">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <p id="sub-heading"><strong>Tutorial</strong></p>
+            <p class="sub-heading"><strong>Tutorial</strong></p>
           </div>
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <div class="accordion" id="tutorial-accordion">
@@ -395,12 +399,12 @@
                   given.
                   To access the Project Guide:
                   <ul>
-                    <li>Go to Workplace.</li>
+                    <li>Go to <a href="https://workplace.supahands.com" target="_blank">Workplace</a>.</li>
                     <li>Scroll down to Projects in Queue.</li>
-                    <li>Find the project you’re looking for</li>
-                    <li>Click the blue View Details button</li>
-                    <li>Go to Stage 1</li>
-                    <li>Click Study the Project Guide</li>
+                    <li>Find the project you’re looking for.</li>
+                    <li>Click the blue View Details button.</li>
+                    <li>Go to Stage 1.</li>
+                    <li>Click Study the Project Guide.</li>
                   </ul>
                 </div>
               </div>
@@ -453,7 +457,7 @@
                 <div id="why-will-my-tutorial-slot-be-held-for-only-10-minutes" class="card-body collapse"
                   data-parent="#tutorial-accordion">
                   We want to make sure everyone has a fair shot at working online with Supahands. The grace period ensures a
-                  constant flow in the queue system and gives more SupaAgents an opportunity to complete a project tutorial.<
+                  constant flow in the queue system and gives more SupaAgents an opportunity to complete a project tutorial.
                 </div>
               </div>
               <!-- #why-will-my-tutorial-slot-be-held-for-only-10-minutes -->
@@ -503,7 +507,7 @@
                 <div id="how-do-I-leave-a-project-queue" class="card-body collapse" data-parent="#tutorial-accordion">
                   If you would like to leave a project queue:
                   <ul>
-                    <li>Go to Workplace.</li>
+                    <li>Go to <a href="https://workplace.supahands.com" target="_blank">Workplace</a>.</li>
                     <li>Scroll down to Projects in Queue.</li>
                     <li>Find the project you’re looking for</li>
                     <li>Click the blue View Details button</li>
@@ -538,7 +542,7 @@
         <!-- FAQ -->
         <div class="row accordion-question pt-5" id="projectQueueFaq">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <p id="sub-heading"><strong>FAQs</strong></p>
+            <p class="sub-heading"><strong>FAQs</strong></p>
           </div>
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <div class="accordion" id="faq-accordion">
