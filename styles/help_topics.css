@@ -34,6 +34,10 @@
     opacity: 1;
 }
 
+.accordion .topcard {
+    border-top: transparent;
+}
+
 .project-row-one .accordion .card .card-header {
     background: transparent;
     border-bottom-color: #EDEFF0;
@@ -41,6 +45,10 @@
     margin-top: -9px;
     height: 46px;
     border: none;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-left: 1px;
+    color: #337AB7;
 }
 
 .project-row-one .accordion .card .card-body {
@@ -61,9 +69,8 @@
     width: 100%;
 }
 
-.project-row-one .btn-label {
+.btn-label {
     font-size: 14px;
-    float: left;
     font-family: AvenirLTStd-Roman;
 }
 
@@ -72,6 +79,8 @@
     float: right;
     width: 0px;
     color: #4A4A4A;
+    margin-top: -6px;
+    margin-right: -5px;
 }
 
 .project-row-one .card,
@@ -134,12 +143,6 @@
 
 .que-row-two .mb-0 .btn {
     width: 100%;
-}
-
-.que-row-two .btn-label {
-    font-size: 14px;
-    float: left;
-    font-family: AvenirLTStd-Roman;
 }
 
 .que-row-two .fa-stack {

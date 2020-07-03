@@ -35,10 +35,6 @@
     border: none;
 }
 
-.accordion .card .topcard {
-    border-top: transparent;
-}
-
 .htj-row-three .accordion .card .card-body {
     padding: 0.75rem 2.5rem;
     color: #4A4A4A;
