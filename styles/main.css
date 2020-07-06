@@ -34,7 +34,12 @@ body {
   padding: 0;
   margin: 0;
   font-family: AvenirLTStd-Roman;
-  background: #F7F7F7 0% 0% no-repeat padding-box;
+  background: #F7F7F7;
+}
+
+body #featured-body {
+  background: #F7F7F7;
+  height: 100vh;
 }
 
 
@@ -93,7 +98,6 @@ opacity: 1;
   left: 123px;
   width: 37px;
   height: 37px;
-/* background: transparent url('img/Logo-Fist.png') 0% 0% no-repeat padding-box; */
   opacity: 1;
 }
 
@@ -135,11 +139,7 @@ opacity: 1;
   padding-left: 40px;
   padding-top: 20px;
   padding-right: 20px;
-
-  /* top: 115px;
-  left: 150px; */
   width: 1000px;
-  /* height: 190px; */
   opacity: 1;
 }
 
