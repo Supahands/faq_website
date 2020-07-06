@@ -62,7 +62,7 @@ body {
 .nav-link {
   top: 20px;
   text-align: left;
-  font: 55 Roman 12px/14px Avenir;
+  font-family: 55 Roman 12px/14px Avenir;
   letter-spacing: 0px;
   color: #FFFFFF;
   opacity: 1;
@@ -74,7 +74,7 @@ body {
   width: 126px;
   height: 16px;
   text-align: left;
-  font: Heavy 16px/20px Futura Std;
+  font-family: Heavy 16px/20px Futura Std;
   letter-spacing: 0px;
   color: #FFFFFF;
   opacity: 1;
@@ -82,7 +82,7 @@ body {
 
 .navbtn {
 text-align: left;
-font: 85 Heavy 16px/20px Avenir;
+font-family: 85 Heavy 16px/20px Avenir;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
@@ -104,7 +104,7 @@ opacity: 1;
   height: 25px;
   text-align: left;
   font-size: 20px;
-  font: FuturaFont;
+  font-family: FuturaFont;
   letter-spacing: 0px;
   color: #67669D;
   opacity: 1;
@@ -127,7 +127,7 @@ opacity: 1;
   width: 1000px;
   height: 38px;
   font-size: 14px;
-  font: Avenir;
+  font-family: Avenir;
   opacity: 1;
 }
 
@@ -156,7 +156,7 @@ opacity: 1;
 }
 
 .help-center {
-  font: Avenir;
+  font-family: Avenir;
 }
 
 .fa-search {
@@ -167,7 +167,7 @@ opacity: 1;
 
 .firstpara {
   font-size: 14px;
-  font: Avenir;
+  font-family: Avenir;
   padding-left: 40px;
   padding-right: 20px;
   text-align: left;
