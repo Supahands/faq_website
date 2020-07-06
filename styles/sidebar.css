@@ -1,15 +1,20 @@
 @font-face {
-    font-family: FuturaFont;
+    font-family: FuturaStd-Heavy;
     src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/FuturaStd-Heavy.otf") format("opentype");
 }
 
-@font-face {
+/* @font-face {
     font-family: FuturaStd-Book;
     src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/FuturaStd-Book.otf") format("opentype");
-}
+} */
 
 @font-face {
-    font-family: Avenir;
+    font-family: FuturaStd-Book;
+    src: url("https://cdn.rawgit.com/Supahands/fonts/master/FuturaStd-Book.otf") format("opentype");
+ }
+
+@font-face {
+    font-family: AvenirLTStd-Black;
     src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/AvenirLTStd-Black.otf") format("opentype");
 }
 
@@ -36,7 +41,7 @@ body {
     height: 23px;
     text-align: left;
     font-size: 18px;
-    font-family: FuturaFont;
+    font-family: FuturaStd-Heavy;
     padding-left: 0px;
     letter-spacing: 0px;
     color: #67669D;
@@ -50,7 +55,16 @@ body {
     height: 19px;
     text-align: left;
     font-size: 16px;
-    font-family: Avenir;
+    font-family: FuturaStd-Book;
+    letter-spacing: 0px;
+    color: #67669D;
+    opacity: 1;
+}
+
+#sidebar-section .side-menu .nav-link {
+    font-size: 16px;
+    font-family: FuturaStd-Book;
+    padding-left: 0px;
     letter-spacing: 0px;
     color: #67669D;
     opacity: 1;
@@ -58,7 +72,7 @@ body {
 
 #sidebar-section .side-title {
     font-weight: bold;
-    font-family: FuturaFont;
+    font-family: FuturaStd-Heavy;
 }
 
 .sidebar-accordion {
