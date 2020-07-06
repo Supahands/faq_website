@@ -1,17 +1,17 @@
 @font-face {
-  font-family: Avenir;
+  font-family: AvenirLTStd-Black;
   src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/AvenirLTStd-Black.otf") format("opentype");
 }
 
 @font-face {
-  font-family: FuturaFont;
+  font-family: FuturaStd-Heavy;
   src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/FuturaStd-Heavy.otf") format("opentype");
 }
 
 body {
   padding: 0;
   margin: 0;
-  font-family: Avenir;
+  font-family: AvenirLTStd-Black;
   background: #F7F7F7 0% 0% no-repeat padding-box;
 }
 
@@ -33,7 +33,7 @@ body {
   padding-right: 30px;
   text-align: left;
   font-size: 12px;
-  font: FuturaStd;
+  font-family: FuturaStd-Heavy;
   letter-spacing: 1.2px;
   color: #888888;
   text-transform: uppercase;
@@ -49,7 +49,7 @@ body {
 .category-tab:hover {
   color: #67669D;
   font-weight: bold;
-  background-color: #F7F7F7;
+  background-color: #EEEEEE;
 }
 
 .category-link:hover {

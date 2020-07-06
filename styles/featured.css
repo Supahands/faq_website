@@ -10,13 +10,18 @@
 /* ---- Extra large devices (large desktops, 1200px and up)--- */
 @media (min-width: 1200px) {}
 
+/* @font-face {
+    font-family: AvenirRoman;
+    src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/AvenirLTStd-Roman.otf") format("opentype");
+} */
+
 @font-face {
-    font-family: Avenir;
+    font-family: AvenirLTStd-Roman;
     src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/AvenirLTStd-Roman.otf") format("opentype");
 }
 
 @font-face {
-    font-family: FuturaFont;
+    font-family: FuturaStd-Heavy;
     src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/FuturaStd-Heavy.otf") format("opentype");
 }
 
@@ -34,7 +39,11 @@
     letter-spacing: 0px;
     color: #67669D;
     opacity: 1;
-    font-family: FuturaFont
+    font-family: FuturaStd-Heavy
+}
+
+.coming-soon .featured-title {
+    font-family: FuturaStd-Heavy
 }
 
 .main-body-section {
@@ -52,7 +61,7 @@
     left: 150px;
     opacity: 1;
     font-size: 14px;
-    font: Avenir;
+    font-family: AvenirLTStd-Roman;
     font-weight: normal;
     margin-top: 20px;
     margin-right: 20px;
@@ -65,17 +74,17 @@
     font-weight: normal;
     margin-bottom: 22px;
     height: 36px;
+    font-family: AvenirLTStd-Roman;
     opacity: 1;
 }
 
 .link-section {
-    /* margin-top: 40px; */
     margin-bottom: 10px;
 }
 
 .pst-group-item {
     font-size: 14px;
-    font: Avenir;
+    font-family: AvenirLTStd-Roman;
 }
 
 .gotopage {
@@ -86,7 +95,7 @@
     line-height: 1px;
     text-align: left;
     font-size: 14px;
-    font: Avenir;
+    font-family: AvenirLTStd-Roman;
     color: #337AB7;
     letter-spacing: 0px;
     opacity: 1;
@@ -97,7 +106,7 @@
     left: 150px;
     text-align: left;
     font-size: 14px;
-    font: Avenir;
+    font-family: AvenirLTStd-Roman;
     font-weight: normal;
     letter-spacing: 0px;
     opacity: 1;

@@ -21,19 +21,19 @@
 
 
 @font-face {
-  font-family: Avenir;
+  font-family: AvenirLTStd-Roman;
   src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/AvenirLTStd-Roman.otf") format("opentype");
 }
 
 @font-face {
-  font-family: FuturaFont;
+  font-family: FuturaStd-Heavy;
   src: url("https://s3-ap-southeast-1.amazonaws.com/supahands-fonts/FuturaStd-Heavy.otf") format("opentype");
 }
 
 body {
   padding: 0;
   margin: 0;
-  font-family: Avenir;
+  font-family: AvenirLTStd-Roman;
   background: #F7F7F7 0% 0% no-repeat padding-box;
 }
 
@@ -44,7 +44,7 @@ body {
   left: 0px;
   width: 1280px;
   height: 50px;
-  font-family: Avenir;
+  font-family: AvenirLTStd-Roman;
   background: transparent linear-gradient(271deg, #76CCDB 0%, #1E96C7 100%) 0% 0% no-repeat padding-box;
   opacity: 1;
 }
@@ -62,7 +62,7 @@ body {
 .nav-link {
   top: 20px;
   text-align: left;
-  font: 55 Roman 12px/14px Avenir;
+  font-family: 55 Roman 12px/14px AvenirLTStd-Roman;
   letter-spacing: 0px;
   color: #FFFFFF;
   opacity: 1;
@@ -74,7 +74,7 @@ body {
   width: 126px;
   height: 16px;
   text-align: left;
-  font: Heavy 16px/20px Futura Std;
+  font-family: Heavy 16px/20px Futura Std;
   letter-spacing: 0px;
   color: #FFFFFF;
   opacity: 1;
@@ -82,7 +82,7 @@ body {
 
 .navbtn {
 text-align: left;
-font: 85 Heavy 16px/20px Avenir;
+font-family: 85 Heavy 16px/20px AvenirLTStd-Roman;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
@@ -104,7 +104,7 @@ opacity: 1;
   height: 25px;
   text-align: left;
   font-size: 20px;
-  font: FuturaFont;
+  font-family: FuturaStd-Heavy;
   letter-spacing: 0px;
   color: #67669D;
   opacity: 1;
@@ -127,7 +127,7 @@ opacity: 1;
   width: 1000px;
   height: 38px;
   font-size: 14px;
-  font: Avenir;
+  font-family: AvenirLTStd-Roman;
   opacity: 1;
 }
 
@@ -156,7 +156,7 @@ opacity: 1;
 }
 
 .help-center {
-  font: Avenir;
+  font-family: AvenirLTStd-Roman;
 }
 
 .fa-search {
@@ -167,7 +167,7 @@ opacity: 1;
 
 .firstpara {
   font-size: 14px;
-  font: Avenir;
+  font-family: AvenirLTStd-Roman;
   padding-left: 40px;
   padding-right: 20px;
   text-align: left;
