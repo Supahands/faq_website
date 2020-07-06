@@ -26,11 +26,11 @@ body {
   opacity: 1;
 }
 
-#projectlink-one {
-  top: 81px;
-  left: 136px;
-  width: 69px;
-  height: 14px;
+.category-tab {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
   text-align: left;
   font-size: 12px;
   font: FuturaStd;
@@ -40,122 +40,18 @@ body {
   opacity: 1;
 }
 
-.projectlink-active {
-  color: #67669D !important;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-#projectlink-one:hover {
+.category-tab-active {
   color: #67669D;
-  text-decoration: underline;
   font-weight: bold;
+  border-bottom: 2px solid #67669D;
 }
 
-#projectlink-two {
-  top: 81px;
-  left: 254px;
-  width: 72px;
-  height: 14px;
-  text-align: left;
-  font-size: 12px;
-  font: FuturaStd;
-  letter-spacing: 1.2px;
-  color: #888888;
-  text-transform: uppercase;
-  opacity: 1;
-}
-
-#projectlink-two:hover {
+.category-tab:hover {
   color: #67669D;
-  text-decoration: underline;
   font-weight: bold;
+  background-color: #F7F7F7;
 }
 
-#project-tab-one {
-  top: 81px;
-  left: 110px;
-  width: 120px;
-  height: 28px;
-  opacity: 1;
+.category-link:hover {
+  text-decoration: none;
 }
-
-#project-tab-two {
-  top: 81px;
-  left: 230px;
-  width: 120px;
-  height: 28px;
-  opacity: 1;
-}
-
-#projectlink-two {
-  top: 81px;
-  left: 254px;
-  width: 72px;
-  height: 14px;
-  text-align: left;
-  font-size: 12px;
-  font: FuturaStd;
-  letter-spacing: 1.2px;
-  color: #888888;
-  text-transform: uppercase;
-  opacity: 1;
-}
-
-#project-tab-three {
-  top: 81px;
-  left: 350px;
-  width: 120px;
-  height: 28px;
-  opacity: 1;
-}
-
-#projectlink-three {
-  top: 81px;
-  left: 254px;
-  width: 72px;
-  height: 14px;
-  text-align: left;
-  font-size: 12px;
-  font: FuturaStd;
-  letter-spacing: 1.2px;
-  color: #888888;
-  text-transform: uppercase;
-  opacity: 1;
-}
-
-#projectlink-three:hover {
-  color: #67669D;
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-#project-tab-four {
-  top: 81px;
-  left: 470px;
-  width: 120px;
-  height: 28px;
-  opacity: 1;
-}
-
-#projectlink-four {
-  top: 81px;
-  left: 500px;
-  width: 61px;
-  height: 14px;
-  text-align: left;
-  font-size: 12px;
-  font: FuturaStd;
-  letter-spacing: 1.2px;
-  color: #888888;
-  text-transform: uppercase;
-  opacity: 1;
-}
-
-#projectlink-four:hover {
-  color: #67669D;
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-/* --------------       end      ------------ */
