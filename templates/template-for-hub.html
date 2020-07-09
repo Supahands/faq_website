@@ -1,0 +1,103 @@
+Sidebar Templates.
+How to use: Add the content for all the Sub-subcategory in Sidebar Items into Subcategory in the Sidebar Template. Then, copy the entire Subcategory in the Sidebar and paste it into the webpage, where the following text is written:
+<!-- Paste Subcategory in Sidebar Template above this line -->
+
+-----------------------------------------
+Subcategory in the Sidebar Template:
+
+Title: Main Subcategory
+Title that has been lowercased & its spaces replaced by dashes: main-subcategory
+
+<div class="card">
+  <div class="card-header sidebar-title mb-0 mt-3 pb-0" data-toggle="collapse" data-target="#main-subcategory"
+    aria-expanded="false">
+    <h5 class="accordion-header">
+      <span class="side-title">Main Subcategory</span>
+      <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+    </h5>
+  </div>
+  <div id="main-subcategory" class="collapse" data-parent="#main-subcategory-accordion">
+    <div class="card-body pt-0">
+      <ul class="nav side-sub-nav">
+        <!-- Paste Sub-subcategory in Sidebar Template above this line -->
+      </ul>
+    </div>
+  </div>
+</div>
+
+-----------------------------------------
+Sub-subcategory in Sidebar Item Template:
+
+Main Title: Main Subcategory
+Main Title that has been lowercased & its spaces replaced by dashes: main-subcategory
+Sub Title: Sub Subcategory
+Sub Title that has been lowercased & its spaces replaced by dashes: sub-subcategory
+
+<li class="nav-item side-menu">
+  <a class="nav-link side-menu-link" href="#main-subcategory-sub-subcategory">Sub Subcategory</a>
+</li>
+
+
+-----------------------------------------
+Body Templates.
+How to use: Add the content for all the Questions in the Accordion. Then, paste the entire Accordion into the Main Body template. Copy the entire Main Body and paste it into the Webpage, where the following text is stated:
+<!-- Paste the Main Body Template below this line -->
+
+-----------------------------------------
+Main Subcategory in Main Body:
+
+Title: Main Subcategory
+Description: This is a description.
+Title that has been lowercased & its spaces replaced by dashes: main-subcategory
+
+<p class="title main-title"><strong>Main Subcategory</strong></p>
+<p class="project-sub-title">This is a description.</p>
+
+<!-- Paste Accordion Template below this line -->
+
+-----------------------------------------
+Sub-subcategory in Accordion:
+
+Main Title: Main Subcategory
+Main Title that has been lowercased & its spaces replaced by dashes: main-subcategory
+Sub Title: Sub Subcategory
+Sub Title that has been lowercased & its spaces replaced by dashes: sub-subcategory
+
+<div class="row accordion-question" id="main-subcategory-sub-subcategory">
+  <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <p class="sub-heading"><strong>Sub Subcategory</strong></p>
+  </div>
+  <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <div class="accordion" id="sub-subcategory-accordion">
+
+      <!-- Paste Accordion Item Template above this Line -->
+      
+    </div>
+  </div>
+</div>
+
+-----------------------------------------
+Accordion Item Template: 
+
+Main Title: Main Subcategory
+Main Title that has been lowercased & its spaces replaced by dashes: main-subcategory
+Sub Title: Sub Subcategory
+Sub Title that has been lowercased & its spaces replaced by dashes: sub-subcategory
+Question: This is my question.
+Question that has been lowercased & its spaces replaced by dashes: this-is-my-question
+Answer: This is my answer.
+
+
+<!-- #this-is-my-question -->
+<div class="card topcard collapsed" data-target="#this-is-my-question" aria-controls="this-is-my-question"
+  data-toggle="collapse" aria-expanded="false">
+  <div class="card-header btn-label">
+    This is my question.
+    <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+  </div>
+
+  <div id="this-is-my-question" class="card-body collapse" data-parent="#sub-subcategory-accordion">
+    This is my answer.
+  </div>
+</div>
+<!-- #this-is-my-question -->
