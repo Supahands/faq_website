@@ -132,7 +132,7 @@
 .main-title {
     top: 130px;
     left: 400px;
-    width: 150px;
+    /* width: 150px; */
     height: 25px;
     text-align: left;
     font-size: 20px;
