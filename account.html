@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Accounts</title>
+  <title>My Account</title>
   <link rel="icon" type="image/png" href="assets/img/Logo-Fist/LogoFist.png"/>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -50,6 +50,9 @@
       <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 pl-0 pt-0">
         <nav class="navbar navbar-expand-sm pl-0 pt-0">
           <ul class="navbar-nav">
+            <a class="category-link" href="getting-started.html">
+              <li class="category-tab">GETTING STARTED</li>
+            </a>
             <a class="category-link" href="projects.html">
               <li class="category-tab">PROJECTS</li>
             </a>
@@ -57,10 +60,7 @@
               <li class="category-tab">PAYMENTS</li>
             </a>
             <a class="category-link" href="account.html">
-              <li class="category-tab category-tab-active">ACCOUNT</li>
-            </a>
-            <a class="category-link" href="policies.html">
-              <li class="category-tab">POLICIES</li>
+              <li class="category-tab category-tab-active">MY ACCOUNT</li>
             </a>
           </ul>
         </nav>
@@ -76,41 +76,63 @@
         <div class="sidebar">
           <div id="accordion" class="sidebar-accordion">
             <div class="card">
-              <div class="card-header sidebar-title mb-0 mt-3 pb-0" data-toggle="collapse" data-target="#getting-started" aria-expanded="false">
+              <div class="card-header sidebar-title mb-0 mt-3 pb-0" data-toggle="collapse" data-target="#workplace-profile" aria-expanded="false">
                 <h5 class="accordion-header">
-                  <span class="side-title">Getting Started</span>
+                  <span class="side-title">Workplace Profile</span>
                   <i class="fas fa-stack fa-sm fa-chevron-down"></i> 
                 </h5>
               </div>
-              <div id="getting-started" class="collapse" data-parent="#accordion">
+              <div id="workplace-profile" class="collapse" data-parent="#accordion">
                 <div class="card-body pt-0">
                     <ul class="nav side-sub-nav">
                       <li class="nav-item side-menu">
-                        <a class="nav-link side-menu-link" href="#getting-started-how-to-join">How to join</a>
+                        <a class="nav-link side-menu-link" href="#workplace-profile-profile">Profile</a>
+                      </li>
+                      <li class="nav-item side-menu">
+                        <a class="nav-link side-menu-link" href="#workplace-profile-ratings">Ratings</a>
+                      </li>
+                      <li class="nav-item side-menu">
+                        <a class="nav-link side-menu-link" href="#workplace-profile-project-types-labels">Project Types & Labels</a>
                       </li>
                     </ul>
                 </div>
               </div>
             </div>
+
             <div class="card">
-              <div class="card-header sidebar-title mb-0 pb-0" data-toggle="collapse" data-target="#projectQueue" aria-expanded="false" aria-controls="projectQueue">
+              <div class="card-header sidebar-title mb-0 mt-3 pb-0" data-toggle="collapse" data-target="#referral" aria-expanded="false">
                 <h5 class="accordion-header">
-                  <span class="side-title">Project Queue</span>
+                  <span class="side-title">Referral</span>
                   <i class="fas fa-stack fa-sm fa-chevron-down"></i> 
                 </h5>
               </div>
-              <div id="projectQueue" class="collapse" data-parent="#accordion">
+              <div id="referral" class="collapse" data-parent="#accordion">
+                <div class="card-body pt-0">
+                    <ul class="nav side-sub-nav">
+                      <li class="nav-item side-menu">
+                        <a class="nav-link side-menu-link" href="#referral">Referral</a>
+                      </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header sidebar-title mb-0 pb-0" data-toggle="collapse" data-target="#policies" aria-expanded="false" aria-controls="policies">
+                <h5 class="accordion-header">
+                  <span class="side-title">Policies</span>
+                  <i class="fas fa-stack fa-sm fa-chevron-down"></i> 
+                </h5>
+              </div>
+              <div id="policies" class="collapse" data-parent="#accordion">
                 <div class="card-body pt-0">
                   <ul class="nav side-sub-nav">
-                      <li class="nav-item side-menu">
-                        <a class="nav-link side-menu-link pt-0" href="#projectQueueQuickGuide">Quick Guide</a>
-                      </li>
-                      <li class="nav-item side-menu pt-1">
-                        <a class="nav-link side-menu-link pt-1" href="#projectQueueTutorial">Tutorial</a>
-                      </li>
-                      <li class="nav-item side-menu pt-2">
-                        <a class="nav-link side-menu-link" href="#projectQueueFaq">FAQs</a>
-                      </li>
+                    <li class="nav-item side-menu">
+                      <a class="nav-link side-menu-link" href="#terms-conditions">Terms and Conditions</a>
+                    </li>
+                    <li class="nav-item side-menu">
+                      <a class="nav-link side-menu-link" href="#privacy-policy">Privacy Policy</a>
+                    </li>
                     </ul>
                 </div>
               </div>
@@ -121,602 +143,627 @@
       </div>
       <!-- Main Content Area -->
       <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8 pt-3">
-        <p class="title main-title"><strong>Getting Started</strong></p>
-        <p class="project-sub-title">Looking to join a project and start work? Here’s all that you need to know.</p>
+        <p class="title main-title"><strong>Workplace Profile</strong></p>
+        <p class="project-sub-title">Last reviewed: 14 July 2020</p>
         
         <!-- Main sections -->
-        <div class="row accordion-question" id="getting-started-how-to-join">
+        <div class="row accordion-question" id="workplace-profile-profile"">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <p class="sub-heading"><strong>How to join</strong></p>
+            <p class="sub-heading"><strong>Profile</strong></p>
           </div>
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <div class="accordion" id="getting-started-accordion">
-              <!-- #how-to-join-a-project -->
-              <div class="card topcard collapsed" data-toggle="collapse" data-target="#how-to-join-a-project" aria-expanded="false" aria-controls="how-to-join-a-project">
+              <!-- #what-do-i-need-to-do-if-workplace-does-not-recognize-me-when-logging-in -->
+              <div class="card topcard collapsed" data-toggle="collapse" data-target="#what-do-i-need-to-do-if-workplace-does-not-recognize-me-when-logging-in" aria-expanded="false" aria-controls="what-do-i-need-to-do-if-workplace-does-not-recognize-me-when-logging-in">
                 <div class="card-header btn-label">
-                  How to join a project
+                  What do I need to do if Workplace does not recognize me when logging in?
                   <i class="fas fa-stack fa-sm fa-chevron-down"></i> 
                 </div>
             
-                <div id="how-to-join-a-project" class="card-body collapse" data-parent="#getting-started-accordion">
-                  <b>There are currently two ways to join a project depending on the project type.</b></br><br>
-                  <b>1. Request to Join</b>
-                  <ul>
-                    <li>On Workplace, go to New Projects.</li>
-                    <li>Click the “Request to Join” button on any available project. The project will now appear in your My Projects >
-                      Requested tab.</li>
-                    <li>Wait for your request to be approved by a Project Manager.</li>
-                    <li>Once approved, you may be required to sit for a Tutorial or Assessment before being able to start the project.
-                    </li>
-                  </ul>
-                  <b>2. Join Queue</b>
-                  <ul>
-                    <li>On Workplace, go to New Projects.</li>
-                    <li>Click the "Join Queue" button on any available project.</li>
-                    <li>Note your Tutorial timeslot. Your timeslot will only be held for an additional 10 minutes if you are late. <span data-toggle="collapse" data-target="#how-to-get-a-tutorial-slot" aria-expanded="false"
-                aria-controls="how-to-get-a-tutorial-slot">Here's why.</span></li>
-                    <li>The project will now appear on Workplace > Projects in Queue.</li>
-                  </ul>
+                <div id="what-do-i-need-to-do-if-workplace-does-not-recognize-me-when-logging-in" class="card-body collapse" data-parent="#getting-started-accordion">
+                  Make sure you have received an email granting you access to 
+                  <a href="https://workplace.supahands.com" class="link-color" target="_blank">Workplace</a>. 
+                  If you still can't log in, this might be because your browser is trying to log in with your default Gmail account. 
+                  Try the following steps: </br><br>
+                  <ol>
+                    <li>Log out of all current Google accounts.</li>
+                      <li>Log in to your Gmail account that you used to register as a SupaAgent.</li>
+                        <li>Go to <a href="https://workplace.supahands.com" class="link-color" target="_blank">Workplace</a> and try logging in again.</li>
+                </ol>
+                  If the issue persists, drop a message in the 
+                  <a href="https://supahive.slack.com/archives/C4CGV7EKW" class="link-color" target="_blank">#tech-issues</a> channel on Slack 
+                  or send an email to 
+                  <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20Workplace%20does%20not%20recognize%20me" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a> 
+                  and our team shall assist you.
                 </div>
               </div>
-              <!-- #how-to-join-a-project -->
+              <!-- #what-do-i-need-to-do-if-workplace-does-not-recognize-me-when-logging-in -->
 
-              <!-- #how-to-get-a-tutorial-slot -->
-              <div class="card collapsed" data-toggle="collapse" data-target="#how-to-get-a-tutorial-slot" aria-expanded="false"
-                aria-controls="how-to-get-a-tutorial-slot">
+              <!-- #can-i-change-the-email-account-ive-registered-with-supahands -->
+              <div class="card collapsed" data-toggle="collapse" data-target="#can-i-change-the-email-account-ive-registered-with-supahands" aria-expanded="false"
+                aria-controls="can-i-change-the-email-account-ive-registered-with-supahands">
                 <div class="card-header btn-label">
-                  How to get a tutorial slot
+                  Can I change the email account I’ve registered with Supahands?
                   <i class="fas fa-stack fa-sm fa-chevron-down"></i>
                 </div>
               
-                <div id="how-to-get-a-tutorial-slot" class="card-body collapse" data-parent="#getting-started-accordion">
-                  Tutorial slots are assigned to SupaAgents who have successfully joined a project queue. Once a project queue is full, no
-                  more tutorial slots will be available.
+                <div id="can-i-change-the-email-account-ive-registered-with-supahands" class="card-body collapse" data-parent="#getting-started-accordion">
+                  No, at this point it is not possible to change the Gmail account that you used to register as a SupaAgent, 
+                  unless it is required for technical reasons.
+                  <br><br>
+                  <i> Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20Can%20I%20change%20the%20email%20account%20I%20have%20registered%20with%20Supahands?" 
+                    class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
                 </div>
               </div>
-              <!-- #how-to-get-a-tutorial-slot -->
+              <!-- #can-i-change-the-email-account-ive-registered-with-supahands -->
 
-              <!-- #how-to-start-work -->
-              <div class="card collapsed" data-toggle="collapse" data-target="#how-to-start-work" aria-expanded="false"
-                aria-controls="how-to-start-work">
+              <!-- #how-can-i-fill-in-or-edit-my-profile-on-workplace -->
+              <div class="card collapsed" data-toggle="collapse" data-target="#how-can-i-fill-in-or-edit-my-profile-on-workplace" aria-expanded="false"
+                aria-controls="how-can-i-fill-in-or-edit-my-profile-on-workplace">
                 <div class="card-header btn-label">
-                  How to start work
+                  How can I fill in or edit my profile on Workplace?
                   <i class="fas fa-stack fa-sm fa-chevron-down"></i>
                 </div>
               
-                <div id="how-to-start-work" class="card-body collapse" data-parent="#getting-started-accordion">
-                  Once you have been assigned to a project and have passed any prerequisites (Tutorials and/or Assessments), the project
-                  will appear on Workplace > My Projects.
-                  <ul>
-                    <li>Go to <a href="https://workplace.supahands.com" target="_blank">Workplace Home</a>.</li>
-                    <li>Scroll to My Projects.</li>
-                    <li>Note your Tutorial timeslot. Your timeslot will only be held for an additional 10 minutes if you are late.</li>
-                    <li>Click the green “Work” button.</li>
+                <div id="how-can-i-fill-in-or-edit-my-profile-on-workplace" class="card-body collapse" data-parent="#getting-started-accordion">
+                  Follow these steps to fill in or edit your Workplace profile:
+                <ol>
+                <li>Log in to <a href="http://workplace.supahands.com" class="link-color" target="_blank">Workplace</a>.</li>
+                <li>Go to your profile picture at the top right corner.</li>
+                <li>Click Edit Profile button.</li>
+                <li>Complete these details:
+                <ul>
+                <li>Personal Information</li>
+                <li>Contact Information</li>
+                <li>Education and Experience</li>
+                </ul>
+                </li>
+                <li>Click Save button.</li>
+                </ol>
+                Note: To change your banking information, refer to this article [TO FILL IN].
+                <br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20How%20can%20I%20fill%20in%20or%20edit%20my%20profile%20on%20Workplace?" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
                   </ul>
                 </div>
               </div>
-              <!-- #how-to-start-work -->
+              <!-- #how-can-i-fill-in-or-edit-my-profile-on-workplace -->            
+
+               <!-- #what-if-i-can-not-edit-my-profile-on-Workplace -->
+               <div class="card collapsed" data-toggle="collapse" data-target="#what-if-i-can-not-edit-my-profile-on-Workplace" aria-expanded="false"
+               aria-controls="what-if-i-can-not-edit-my-profile-on-Workplace">
+               <div class="card-header btn-label">
+                What if I can not edit my profile on Workplace?
+                 <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+               </div>
+             
+               <div id="what-if-i-can-not-edit-my-profile-on-Workplace" class="card-body collapse" data-parent="#getting-started-accordion">
+
+               If you are unable to go to your profile or if nothing happens, drop a message in the <a href="https://supahive.slack.com/archives/C4CGV7EKW" class="link-color"> #tech-issues </a> Slack channel and we will get back to you as soon as possible.
+
+                Note: You cannot self-edit your Full Name, Government-issued ID, and Banking Information. If these information needs to be updated, please contact <a href="mailto:supaagent.hub@supahands.com" class="link-color">supaagent.hub@supahands.com</a>
+               
+               
+               <br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20what%20if%20I%20can%20not%20edit%20my%20profile%20on%20workplace?" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+                 </ul>
+               </div>
+             </div>
+            <!-- #what-if-i-can-not-edit-my-profile-on-Workplace -->   
+             
+            <!-- #how-do-i-update-my-profile-picture-on-workplace -->
+              <div class="card collapsed" data-toggle="collapse" data-target="#how-do-i-update-my-profile-picture-on-workplace" aria-expanded="false"
+              aria-controls="how-do-i-update-my-profile-picture-on-workplace">
+              <div class="card-header btn-label">
+                How do I update my profile picture on Workplace?
+                <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+              </div>
+            
+              <div id="how-do-i-update-my-profile-picture-on-workplace" class="card-body collapse" data-parent="#getting-started-accordion">
+
+                Your Workplace profile picture is linked to your Google account, so if you change it for the email address you’ve registered with us, it will also be updated on Workplace.
+              
+              
+              <br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20how%20do%20I%20update%20my%20profile%20picture%20on%20workplace?" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+                </ul>
+              </div>
+            </div>
+            <!-- #how-do-i-update-my-profile-picture-on-workplace -->     
+
+            <!-- #how-do-i-resign-from-being-a-supaagent -->
+            <div class="card collapsed" data-toggle="collapse" data-target="#how-do-i-resign-from-being-a-supaagent" aria-expanded="false"
+            aria-controls="how-do-i-resign-from-being-a-supaagent">
+            <div class="card-header btn-label">
+              How do I resign from being a SupaAgent?
+              <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+            </div>
+          
+            <div id="how-do-i-resign-from-being-a-supaagent" class="card-body collapse" data-parent="#getting-started-accordion">
+
+              You can submit your resignation by sending an email to <a href="mailto:supaagent.hub@supahands.com" class="link-color"> supaagent.hub@supahands.com</a>
+              Should you want to have a (long) break from being a SupaAgent but are still considering to work on projects in the future, then there is no need to resign.
+              <br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20how%20do%20I%20resign%20from%20being%20a%20Supaagent?" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+              </ul>
+            </div>
+          </div>
+          <!-- #how-do-i-resign-from-being-a-supaagent -->     
+
+          <!-- #if-i-would-like-to-add-working-at-supahands-to-my-experience-on-linkedin-how-should-i-input-it -->
+          <div class="card collapsed" data-toggle="collapse" data-target="#if-i-would-like-to-add-working-at-supahands-to-my-experience-on-linkedin-how-should-i-input-it" aria-expanded="false"
+          aria-controls="if-i-would-like-to-add-working-at-supahands-to-my-experience-on-linkedin-how-should-i-input-it">
+          <div class="card-header btn-label">
+            If I would like to add working at Supahands to my experiences on LinkedIn, how should I input it?
+            <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+          </div>
+        
+          <div id="if-i-would-like-to-add-working-at-supahands-to-my-experience-on-linkedin-how-should-i-input-it" class="card-body collapse" data-parent="#getting-started-accordion">
+
+            Please put SupaAgent as your Job Title. In addition, if you wish to go into more detail for the job position, you can place it in brackets, such as:
+            <br><br>SupaAgent (Data Enricher)
+            <br>SupaAgent (Image Moderator)
+            <br>SupaAgent (Online Support)
+            
+            <br><br>
+
+            <img src="images/LinkedIn.png" style="width:600px">
+                        
+          
+          <br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20if%20I%20would%20add%20working%20at%20supahands%20to%20my%20experiences%20on%20LinkedIn%20how%20should%20I%20input%20it?" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+            </ul>
+          </div>
+        </div>
+        <!-- #if-i-would-like-to-add-working-at-supahands-to-my-experience-on-linkedin-how-should-i-input-it -->    
+        
+        
+
+
             </div>
           </div>
         </div>
+        <!-- Workplace Profile -->
 
-        <!-- Project Queue -->
-        <p class="title main-title mt-5 mb-0"><strong>Project Queue</strong></p>
-
-        <!-- Quick Guide -->
-        <div class="row accordion-question pt-5" id="projectQueueQuickGuide">
+        <!-- Ratings -->
+        <div class="row accordion-question pt-5" id="workplace-profile-ratings">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <p class="sub-heading"><strong>Quick Guide</strong></p>
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <div class="accordion" id="quick-guide-accordion">
-              <!-- #what-is-a-project-queue -->
-              <div class="card topcard collapsed" data-toggle="collapse" data-target="#what-is-a-project-queue"
-                aria-expanded="false" aria-controls="what-is-a-project-queue">
-                <div class="card-header btn-label">
-                  What is a project queue?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
-        
-                <div id="what-is-a-project-queue" class="card-body collapse" data-parent="#quick-guide-accordion">
-                  A project queue is a new way of joining a project on <a href="https://workplace.supahands.com" target="_blank">Workplace</a>. Each SupaAgent who joins a project queue will
-                  be assigned a tutorial slot.
-                  Every project queue has an allocated number of tutorial slots. Once the queue is full, no more tutorial slots
-                  will be assigned.
-                  For further information please refer to our 
-                  <span class="linked-text" data-toggle="collapse" aria-expanded="false" 
-                    aria-controls="what-are-the-project-queue-terms-and-conditions" 
-                    data-target='#what-are-the-project-queue-terms-and-conditions'>
-                    Supahands Project Queue terms and conditions
-                  </span>. If you have any questions about the process, please <a href="mailto:supaagents.hub@supahands.com">submit a request</a>.
-                </div>
-              </div>
-              <!-- #what-is-a-project-queue -->
-        
-              <!-- #what-is-a-tutorial-timeslot -->
-              <div class="card collapsed" data-toggle="collapse" data-target="#what-is-a-tutorial-timeslot"
-                aria-expanded="false" aria-controls="what-is-a-tutorial-timeslot">
-                <div class="card-header btn-label">
-                  What is a tutorial timeslot?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
-        
-                <div id="what-is-a-tutorial-timeslot" class="card-body collapse" data-parent="#quick-guide-accordion">
-                  A tutorial timeslot refers to the start time allocated for you to take a project tutorial.
-                  It is your responsibility to make sure you are on time for your tutorial. If you are late, the system will
-                  only hold your tutorial slot for an additional 10 minutes. After this grace period, you will not be able to
-                  take the project tutorial.
-                </div>
-              </div>
-              <!-- #what-is-a-tutorial-timeslot -->
-        
-              <!-- #what-projects-have-a-queue-system -->
-              <div class="card collapsed" data-toggle="collapse" data-target="#what-projects-have-a-queue-system"
-                aria-expanded="false" aria-controls="what-projects-have-a-queue-system">
-                <div class="card-header btn-label">
-                  What projects have a queue system?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
-        
-                <div id="what-projects-have-a-queue-system" class="card-body collapse" data-parent="#quick-guide-accordion">
-                  Currently, the Supahands Queue system is being trialled on Image Annotation projects. This is being carried
-                  out on a case by case basis.
-                  In the future, we hope to roll out Queue across all projects. Thank you for being patient with us in the
-                  meantime.
-                </div>
-              </div>
-              <!-- #what-projects-have-a-queue-system -->
-        
-              <!-- #what-are-the-project-queue-terms-and-conditions -->
-              <div class="card collapsed" data-toggle="collapse"
-                data-target="#what-are-the-project-queue-terms-and-conditions" aria-expanded="false"
-                aria-controls="what-are-the-project-queue-terms-and-conditions">
-                <div class="card-header btn-label">
-                  What are the project queue terms and conditions?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
-      
-                <div id="what-are-the-project-queue-terms-and-conditions" class="card-body collapse"
-                  data-parent="#quick-guide-accordion">
-                  The Supahands Project Queue process is subject to change at any time at Supahands’ discretion. < <ul>
-                    <li>Due to the high demand for work and a competitive workforce, eligibility and availability of tasks are
-                      not guaranteed once you join a queue. </li>
-                    <li>A SupaAgent’s position in the queue cannot be sold, transferred, assigned or otherwise provided to
-                      anyone else. Evidence of such behaviour by any SupaAgent could lead to a suspension from the Supahands
-                      platform. </li>
-                    <li> When a SupaAgent leaves the queue, this action is final and cannot be undone.</li>
-                    <li>If the Project is full, remaining SupaAgents in the queue will no longer be eligible to take the
-                      project tutorial/assessment and will be notified by email within 24 hours.</li>
-                    <li>Supahands reserves the right in its sole discretion to disqualify any individual it finds to be
-                      tampering with the Project Queue process or the operation of entering a queue and/or to be acting in
-                      violation of these Terms and Conditions or in an unsportsmanlike or disruptive manner. Any attempt by
-                      any person to undermine the legitimate operation of the Supahands Project Queue process may be a
-                      violation of criminal and civil law, and, should such an attempt be made, Supahands reserves the right
-                      to seek damages from any such person to the fullest extent permitted by law.</li>
-                    </ul>
-                </div>
-              </div>
-              <!-- #what-are-the-project-queue-terms-and-conditions -->
-      
-              <!-- #who-can-join-a-project-queue -->
-              <div class="card collapsed" data-toggle="collapse" data-target="#who-can-join-a-project-queue"
-                aria-expanded="false" aria-controls="who-can-join-a-project-queue">
-                <div class="card-header btn-label">
-                  Who can join a project queue?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
-      
-                <div id="who-can-join-a-project-queue" class="card-body collapse" data-parent="#quick-guide-accordion">
-                  Any SupaAgent who sees the “Join Queue” button is eligible to join.
-                  To be eligible for a particular project, see Project Labels.
-                </div>
-              </div>
-              <!-- #who-can-join-a-project-queue -->
-        
-              <!-- #how-can-I-find-my-tutorial-time-slot -->
-              <div class="card collapsed" data-toggle="collapse" data-target="#how-can-I-find-my-tutorial-time-slot"
-                aria-expanded="false" aria-controls="how-can-I-find-my-tutorial-time-slot">
-                <div class="card-header btn-label">
-                  How can I find my tutorial time slot?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
-      
-                <div id="how-can-I-find-my-tutorial-time-slot" class="card-body collapse"
-                  data-parent="#quick-guide-accordion">
-                  Once you have successfully joined a project queue:
-                  <ul>
-                    <li>Go to <a href="https://workplace.supahands.com" target="_blank">Workplace</a>.</li>
-                    <li>Scroll down to Projects in Queue.</li>
-                    <li>Find the project you’re looking for</li>
-                    <li>The tutorial time slot will be displayed in the same row</li>
-                    <li>To access the Project Guide, click the blue View Details button.</li>
-                  </ul>
-                </div>
-              </div>
-              <!-- #how-can-I-find-my-tutorial-time-slot -->
-      
-              <!-- #how-do-I-leave-a-project-queue -->
-              <div class="card collapsed" data-toggle="collapse" data-target="#how-do-I-leave-a-project-queue"
-                aria-expanded="false" aria-controls="how-do-I-leave-a-project-queue">
-                <div class="card-header btn-label">
-                  How do I leave a project queue?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
-      
-                <div id="how-do-I-leave-a-project-queue" class="card-body collapse" data-parent="#quick-guide-accordion">
-                  If you would like to leave a project queue:
-                  <ul>
-                    <li>Go to <a href="https://workplace.supahands.com" target="_blank">Workplace</a>.</li>
-                    <li>Scroll down to Projects in Queue.</li>
-                    <li>Find the project you’re looking for</li>
-                    <li>Click the blue View Details button</li>
-                    <li>Scroll down and click the red Leave Queue button</li>
-                    <li>A pop up will appear. Click Leave Queue button again</li>
-                  </ul>
-                  Note: Once you leave a queue, you will no longer be able to get your tutorial slot back. You will, however,
-                  be able to re-join the project queue if it is still open.
-                </div>
-              </div>
-              <!-- #how-do-I-leave-a-project-queue -->
-      
-              <!-- #how-many-project-queues-can-I-join -->
-              <div class="card collapsed" data-toggle="collapse" data-target="#how-many-project-queues-can-I-join"
-                aria-expanded="false" aria-controls="how-many-project-queues-can-I-join">
-                <div class="card-header btn-label">
-                  How many project queues can I join?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
-      
-                <div id="how-many-project-queues-can-I-join" class="card-body collapse" data-parent="#quick-guide-accordion">
-                  Currently, there is no set limit on the number of project queues a SupaAgent can join. However, please make
-                  sure that you are available for your assigned tutorial slots.
-                </div>
-              </div>
-              <!-- #how-many-project-queues-can-I-join -->
-            </div>
-          </div>
-        </div>
-        <!-- Quick Guide -->
-
-        <!-- Tutorial -->
-        <div class="row accordion-question pt-5" id="projectQueueTutorial">
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <p class="sub-heading"><strong>Tutorial</strong></p>
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <div class="accordion" id="tutorial-accordion">
-              <!-- #how-should-I-get-ready-for-the-tutorial -->
-              <div class="card topcard collapsed" data-toggle="collapse" data-target="#how-should-I-get-ready-for-the-tutorial"
-                aria-expanded="false" aria-controls="how-should-I-get-ready-for-the-tutorial">
-                <div class="card-header btn-label">
-                  How should I get ready for the tutorial?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
-        
-                <div id="how-should-I-get-ready-for-the-tutorial" class="card-body collapse" data-parent="#tutorial-accordion">
-                  There are no shortcuts here! We strongly advise you to study the Project Guide and review all the examples
-                  given.
-                  To access the Project Guide:
-                  <ul>
-                    <li>Go to <a href="https://workplace.supahands.com" target="_blank">Workplace</a>.</li>
-                    <li>Scroll down to Projects in Queue.</li>
-                    <li>Find the project you’re looking for.</li>
-                    <li>Click the blue View Details button.</li>
-                    <li>Go to Stage 1.</li>
-                    <li>Click Study the Project Guide.</li>
-                  </ul>
-                </div>
-              </div>
-              <!-- #how-should-I-get-ready-for-the-tutorial -->
-        
-              <!-- #how-long-does-a-project-tutorial-take -->
-              <div class="card collapsed" data-toggle="collapse" data-target="#how-long-does-a-project-tutorial-take"
-                aria-expanded="false" aria-controls="how-long-does-a-project-tutorial-take">
-                <div class="card-header btn-label">
-                  How long does a project tutorial take?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
-        
-                <div id="how-long-does-a-project-tutorial-take" class="card-body collapse" data-parent="#tutorial-accordion">
-                  The time it takes to complete a tutorial varies from SupaAgent to SupaAgent.
-                  The duration of each tutorial slot varies depending on the project. In general, tutorials should last no
-                  longer than 60 minutes.
-                </div>
-              </div>
-              <!-- #how-long-does-a-project-tutorial-take -->
-        
-              <!-- #my-tutorial-page-timed-out-leads-me-to-a-401-error-page-what-should-I-do -->
-              <div class="card collapsed" data-toggle="collapse"
-                data-target="#my-tutorial-page-timed-out-leads-me-to-a-401-error-page-what-should-I-do" aria-expanded="false"
-                aria-controls="my-tutorial-page-timed-out-leads-me-to-a-401-error-page-what-should-I-do">
-                <div class="card-header btn-label">
-                  My tutorial page timed out/leads me to a 401 error page. What should I do?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
-        
-                <div id="my-tutorial-page-timed-out-leads-me-to-a-401-error-page-what-should-I-do" class="card-body collapse"
-                  data-parent="#tutorial-accordion">
-                  If you are unable to complete the tutorial in the allotted time, you will no longer have access to the
-                  tutorial.
-                  If the project queue is still open or reopens again, you may rejoin and wait for the next available tutorial
-                  slot.
-                </div>
-              </div>
-              <!-- #my-tutorial-page-timed-out-leads-me-to-a-401-error-page-what-should-I-do -->
-        
-              <!-- #why-will-my-tutorial-slot-be-held-for-only-10-minutes -->
-              <div class="card collapsed" data-toggle="collapse"
-                data-target="#why-will-my-tutorial-slot-be-held-for-only-10-minutes" aria-expanded="false"
-                aria-controls="why-will-my-tutorial-slot-be-held-for-only-10-minutes">
-                <div class="card-header btn-label">
-                  Why will my tutorial slot be held for only 10 minutes?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
-        
-                <div id="why-will-my-tutorial-slot-be-held-for-only-10-minutes" class="card-body collapse"
-                  data-parent="#tutorial-accordion">
-                  We want to make sure everyone has a fair shot at working online with Supahands. The grace period ensures a
-                  constant flow in the queue system and gives more SupaAgents an opportunity to complete a project tutorial.
-                </div>
-              </div>
-              <!-- #why-will-my-tutorial-slot-be-held-for-only-10-minutes -->
-        
-              <!-- #I-did-not-manage-to-complete-the-project-tutorial-how-many-times-am-I-allowed-to-try-again -->
-              <div class="card collapsed" data-toggle="collapse"
-                data-target="#I-did-not-manage-to-complete-the-project-tutorial-how-many-times-am-I-allowed-to-try-again"
-                aria-expanded="false"
-                aria-controls="I-did-not-manage-to-complete-the-project-tutorial-how-many-times-am-I-allowed-to-try-again">
-                <div class="card-header btn-label">
-                  I did not manage to complete the project tutorial. How many times am I allowed to try again?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
-      
-                <div id="I-did-not-manage-to-complete-the-project-tutorial-how-many-times-am-I-allowed-to-try-again"
-                  class="card-body collapse" data-parent="#tutorial-accordion">
-                  There are no limits on retaking the project tutorial. However, you will need to rejoin the project queue (if
-                  it is still open). This is so everyone has a fair shot at working online with Supahands.
-                </div>
-              </div>
-              <!-- #I-did-not-manage-to-complete-the-project-tutorial-how-many-times-am-I-allowed-to-try-again -->
-      
-              <!-- #I-passed-the-project-tutorial-but-did-not-get-assigned-to-the-project -->
-              <div class="card collapsed" data-toggle="collapse"
-                data-target="#I-passed-the-project-tutorial-but-did-not-get-assigned-to-the-project" aria-expanded="false"
-                aria-controls="I-passed-the-project-tutorial-but-did-not-get-assigned-to-the-project">
-                <div class="card-header btn-label">
-                  I passed the project tutorial but did not get assigned to the project. Why?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
-      
-                <div id="I-passed-the-project-tutorial-but-did-not-get-assigned-to-the-project" class="card-body collapse"
-                  data-parent="#tutorial-accordion">
-                  In the unlikely event that this happens, please contact SupaAgent Hub immediately.
-                </div>
-              </div>
-              <!-- #I-passed-the-project-tutorial-but-did-not-get-assigned-to-the-project -->
-        
-              <!-- #how-do-I-leave-a-project-queue -->
-              <div class="card collapsed" data-toggle="collapse" data-target="#how-do-I-leave-a-project-queue"
-                aria-expanded="false" aria-controls="how-do-I-leave-a-project-queue">
-                <div class="card-header btn-label">
-                  How do I leave a project queue?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
-      
-                <div id="how-do-I-leave-a-project-queue" class="card-body collapse" data-parent="#tutorial-accordion">
-                  If you would like to leave a project queue:
-                  <ul>
-                    <li>Go to <a href="https://workplace.supahands.com" target="_blank">Workplace</a>.</li>
-                    <li>Scroll down to Projects in Queue.</li>
-                    <li>Find the project you’re looking for</li>
-                    <li>Click the blue View Details button</li>
-                    <li>Scroll down and click the red Leave Queue button</li>
-                    <li>A pop up will appear. Click Leave Queue button again</li>
-                  </ul>
-                  Note: Once you leave a queue, you will no longer be able to get your tutorial slot back. You will, however,
-                  be able to re-join the project queue if it is still open.
-                </div>
-              </div>
-              <!-- #how-do-I-leave-a-project-queue -->
-        
-              <!-- #how-many-project-queues-can-I-join -->
-              <div class="card collapsed" data-toggle="collapse" data-target="#how-many-project-queues-can-I-join"
-                aria-expanded="false" aria-controls="how-many-project-queues-can-I-join">
-                <div class="card-header btn-label">
-                  How many project queues can I join?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
-      
-                <div id="how-many-project-queues-can-I-join" class="card-body collapse" data-parent="#tutorial-accordion">
-                  Currently, there is no set limit on the number of project queues a SupaAgent can join. However, please make
-                  sure that you are available for your assigned tutorial slots.
-                </div>
-              </div>
-              <!-- #how-many-project-queues-can-I-join -->
-            </div>
-          </div>
-        </div>
-        <!-- Tutorial -->
-
-        <!-- FAQ -->
-        <div class="row accordion-question pt-5" id="projectQueueFaq">
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <p class="sub-heading"><strong>FAQs</strong></p>
+            <p class="sub-heading"><strong>Ratings</strong></p>
           </div>
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <div class="accordion" id="faq-accordion">
 
-              <!-- #why-do-I-need-to-wait-in-a-queue-to-join-a-project -->
-              <div class="card topcard collapsed" data-toggle="collapse" data-target="#why-do-I-need-to-wait-in-a-queue-to-join-a-project"
-                aria-expanded="false" aria-controls="why-do-I-need-to-wait-in-a-queue-to-join-a-project">
-                <div class="card-header btn-label">
-                  Why do I need to wait in a queue to join a project?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
-              
-                <div id="why-do-I-need-to-wait-in-a-queue-to-join-a-project" class="card-body collapse" data-parent="#faq-accordion">
-                  To access the Project Guide: <br> We want to make sure everyone has a fair shot at working online with Supahands. To
-                  help with that, we require every SupaAgent to join a queue and wait in line for a tutorial slot.
-                </div>
+              <!-- #where-can-i-find-my-ratings -->
+              <div class="card collapsed" data-toggle="collapse" data-target="#where-can-i-find-my-ratings" aria-expanded="false"
+              aria-controls="where-can-i-find-my-ratings">
+              <div class="card-header btn-label">
+                Where can I find my ratings?
+                <i class="fas fa-stack fa-sm fa-chevron-down"></i>
               </div>
-              <!-- #why-do-I-need-to-wait-in-a-queue-to-join-a-project -->
+            
+              <div id="where-can-i-find-my-ratings" class="card-body collapse" data-parent="#getting-started-accordion">
 
-              <!-- #will-i-get-onto-a-project-if-i-join-a-queue -->
-              <div class="card collapsed" data-toggle="collapse" data-target="#will-i-get-onto-a-project-if-i-join-a-queue"
-                aria-expanded="false" aria-controls="will-i-get-onto-a-project-if-i-join-a-queue">
-                <div class="card-header btn-label">
-                  Will I get onto a project if I join a queue?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
-              
-                <div id="will-i-get-onto-a-project-if-i-join-a-queue" class="card-body collapse" data-parent="#faq-accordion">
-                  No, joining a project queue does not guarantee a position in a project. You will still need to pass the project
-                  tutorial
-                  or assessment in the allocated time frame.
-                </div>
-              </div>
-              <!-- #will-i-get-onto-a-project-if-i-join-a-queue -->
-              
-              <!-- #i-left-a-project-queue-by-accident-can-i-get-my-original-tutorial-slot-back -->
-              <div class="card collapsed" data-toggle="collapse"
-                data-target="#i-left-a-project-queue-by-accident-can-i-get-my-original-tutorial-slot-back" aria-expanded="false"
-                aria-controls="i-left-a-project-queue-by-accident-can-i-get-my-original-tutorial-slot-back">
-                <div class="card-header btn-label">
-                  I left a project queue by accident. Can I get my original tutorial slot back?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
-              
-                <div id="i-left-a-project-queue-by-accident-can-i-get-my-original-tutorial-slot-back" class="card-body collapse"
-                  data-parent="#faq-accordion">
-                  Unfortunately, this is not possible. You are welcome to re-join the queue if the project is still in progress and
-                  accepting SupaAgents.
-                </div>
-              </div>
-              <!-- #i-left-a-project-queue-by-accident-can-i-get-my-original-tutorial-slot-back -->
-              
-              <!-- #how-can-i-get-a-higher-chance-of-getting-on-a-project-queue -->
-              <div class="card collapsed" data-toggle="collapse"
-                data-target="#how-can-i-get-a-higher-chance-of-getting-on-a-project-queue" aria-expanded="false"
-                aria-controls="how-can-i-get-a-higher-chance-of-getting-on-a-project-queue">
-                <div class="card-header btn-label">
-                  How can I get a higher chance of getting on a project queue?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
-              
-                <div id="how-can-i-get-a-higher-chance-of-getting-on-a-project-queue" class="card-body collapse"
-                  data-parent="#faq-accordion">
-                  Every SupaAgent has a fair shot at working online with Supahands.
-                  <br /><br />
-                  Find out about new projects as soon as they launch on Workplace by joining the #notif-avail_projects channel on
-                  Slack.
-                  Don’t forget to turn on your notifications on your Slack app too.
-                </div>
-              </div>
-              <!-- #how-can-i-get-a-higher-chance-of-getting-on-a-project-queue -->
+                There are two types of ratings shown on Workplace, namely the Project Rating and your Overall Average Rating. 
+                <br><br><ul>
 
-              <!-- #do-my-supaagent-ratings-and-workplace-labels-impact-my-position-in-the-queue -->
-              <div class="card collapsed" data-toggle="collapse"
-                data-target="#do-my-supaagent-ratings-and-workplace-labels-impact-my-position-in-the-queue" aria-expanded="false"
-                aria-controls="do-my-supaagent-ratings-and-workplace-labels-impact-my-position-in-the-queue">
-                <div class="card-header btn-label">
-                  Do my SupaAgent ratings and Workplace labels impact my position in the queue?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
+                <li>Project Rating is shown under the Ratings tab on your profile.</li>
+                <li>Overall Average Rating is shown at the top bar of your profile (beside your profile picture). </li>
+                
+                </ul>
               
-                <div id="do-my-supaagent-ratings-and-workplace-labels-impact-my-position-in-the-queue" class="card-body collapse"
-                  data-parent="#faq-accordion">
-                  The Supahands project queue process is bias-free. Everybody is put on an equal playing field, whether you’re a
-                  newbie or
-                  a veteran SupaAgent. We do, however, recommend studying the Project Guide whilst you wait for your tutorial slot.
-                  This
-                  is so you’re set up for success when it’s your turn to take the project tutorial or assessment.
-                </div>
+              <br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20where%20can%20I%20find%20my%20ratings?" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+                </ul>
               </div>
-              <!-- #do-my-supaagent-ratings-and-workplace-labels-impact-my-position-in-the-queue -->
+            </div>
+            <!-- #where-can-i-find-my-ratings -->     
 
-              <!-- #why-do-we-need-labels-if-everyone-has-to-join-a-project-queue -->
-              <div class="card collapsed" data-toggle="collapse" 
-                data-target="#why-do-we-need-labels-if-everyone-has-to-join-a-project-queue" 
-                aria-expanded="false" aria-controls="why-do-we-need-labels-if-everyone-has-to-join-a-project-queue">
-                <div class="card-header btn-label">
-                  Why do we need labels if everyone has to join a project queue?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
-              
-                <div id="why-do-we-need-labels-if-everyone-has-to-join-a-project-queue" class="card-body collapse"
-                  data-parent="#faq-accordion">
-                  We are rolling out the project queue system on a case by case basis. This means that for some projects, you will
-                  still
-                  require certain labels to qualify. We are looking to move towards a fully-automated queue system on Workplace, so
-                  please
-                  be patient with us as we transition.
-                </div>
-              </div>
-              <!-- #why-do-we-need-labels-if-everyone-has-to-join-a-project-queue -->
 
-              <!-- #ive-worked-on-a-similar-project-before-will-i-get-priority-access-in-the-queue -->
-              <div class="card collapsed" data-toggle="collapse"
-                data-target="#ive-worked-on-a-similar-project-before-will-i-get-priority-access-in-the-queue" aria-expanded="false"
-                aria-controls="ive-worked-on-a-similar-project-before-will-i-get-priority-access-in-the-queue">
-                <div class="card-header btn-label">
-                  Why do we need labels if everyone has to join a project queue?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
-              
-                <div id="ive-worked-on-a-similar-project-before-will-i-get-priority-access-in-the-queue" class="card-body collapse"
-                  data-parent="#faq-accordion">
-                  We are rolling out the project queue system on a case by case basis. This means that for some projects, you will
-                  still
-                  require certain labels to qualify. We are looking to move towards a fully-automated queue system on Workplace, so
-                  please
-                  be patient with us as we transition.
-                </div>
+              <!-- #how-are-my-ratings-calculated -->
+              <div class="card collapsed" data-toggle="collapse" data-target="#how-are-my-ratings-calculated" aria-expanded="false"
+              aria-controls="how-are-my-ratings-calculated">
+              <div class="card-header btn-label">
+                How are my ratings calculated?
+                <i class="fas fa-stack fa-sm fa-chevron-down"></i>
               </div>
-              <!-- #ive-worked-on-a-similar-project-before-will-i-get-priority-access-in-the-queue -->
+            
+              <div id="how-are-my-ratings-calculated" class="card-body collapse" data-parent="#getting-started-accordion">
 
-              <!-- #do-i-have-to-refresh-the-page-when-i-am-in-the-queue -->
-              <div class="card collapsed" data-toggle="collapse" data-target="#do-i-have-to-refresh-the-page-when-i-am-in-the-queue"
-                aria-expanded="false" aria-controls="do-i-have-to-refresh-the-page-when-i-am-in-the-queue">
-                <div class="card-header btn-label">
-                  Do I have to refresh the page when I am in the queue?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
-              
-                <div id="do-i-have-to-refresh-the-page-when-i-am-in-the-queue" class="card-body collapse"
-                  data-parent="#faq-accordion">
-                  We built the queue system to give SupaAgents the freedom and flexibility during the wait. There is no need to
-                  refresh
-                  the page as your tutorial slot is guaranteed once you join a project queue.
-                  <br /><br />
-                  However, we highly recommend setting an alert/reminder on your mobile phone and/or computer. If you’re late, we’ll
-                  only
-                  hold your tutorial slot for an additional ten minutes.
-                </div>
-              </div>
-              <!-- #do-i-have-to-refresh-the-page-when-i-am-in-the-queue -->
+                There are two types of ratings shown on Workplace, namely the Project Rating and your Overall Average Rating. 
+                The way they are calculated are quite similar as they do not take N/A into consideration nor will it be based on averages. 
 
-              <!-- #the-online-queue-was-full-but-it-opened-again-how-is-this-possible -->
-              <div class="card collapsed" data-toggle="collapse"
-                data-target="#the-online-queue-was-full-but-it-opened-again-how-is-this-possible" aria-expanded="false"
-                aria-controls="the-online-queue-was-full-but-it-opened-again-how-is-this-possible">
-                <div class="card-header btn-label">
-                  The online queue was full, but it opened again. How is this possible?
-                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
-                </div>
+                <br>  <br>
+                <img src="images/ratings table.png" style="width:600px">
               
-                <div id="the-online-queue-was-full-but-it-opened-again-how-is-this-possible" class="card-body collapse"
-                  data-parent="#faq-accordion">
-                  On occasion, certain projects will require more SupaAgents after a given period of time. There could be a number of
-                  reasons for this. For example, when there is an increase in the number of available tasks, or when existing
-                  SupaAgents
-                  don’t meet the required accuracy threshold.
-                </div>
+              <br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20how%20are%20my%20ratings%20calculated?" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+                </ul>
               </div>
-              <!-- #the-online-queue-was-full-but-it-opened-again-how-is-this-possible -->
+            </div>
+            <!-- #how-are-my-ratings-calculated -->     
+
+
+              <!-- #what-are-the-criteria-for-which-i-can-be-rated-for -->
+              <div class="card collapsed" data-toggle="collapse" data-target="#what-are-the-criteria-for-which-i-can-be-rated-for" aria-expanded="false"
+              aria-controls="what-are-the-criteria-for-which-i-can-be-rated-for">
+              <div class="card-header btn-label">
+                What are the criteria for which I can be rated for?
+                <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+              </div>
+            
+              <div id="what-are-the-criteria-for-which-i-can-be-rated-for" class="card-body collapse" data-parent="#getting-started-accordion">
+
+                The criteria for which you will be rated are Conduct, Accuracy, Commitment and Speed. 
+                The ratings given are on a scale from 1 to 5 stars, whereby 1 is the lowest and 5 is the highest. 
+                The Project Manager is also able to select N/A (Not Applicable) for various scenarios, e.g. if you haven’t done any work for a project you were assigned to, then your Accuracy can not be rated and therefore this criterion shall be rated as N/A. 
+                
+                <br> <br>
+                <img src="images/page13.png" style="width:600px"> 
+              
+              <br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20what%20are%20the%20the%20criteria%20for%20which%20I%20can%20be%20rated%20for?" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+                </ul>
+              </div>
+            </div>
+            <!-- #what-are-the-criteria-for-which-i-can-be-rated-for -->     
+
+            <!-- #for-what-will-my-ratings-be-used -->
+            <div class="card collapsed" data-toggle="collapse" data-target="#for-what-will-my-ratings-be-used" aria-expanded="false"
+            aria-controls="for-what-will-my-ratings-be-used">
+            <div class="card-header btn-label">
+              For what will my rating(s) be used?
+              <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+            </div>
+          
+            <div id="for-what-will-my-ratings-be-used" class="card-body collapse" data-parent="#getting-started-accordion">
+
+              Your rating may be taken into consideration when Project Managers assign agents to their projects.          
+            
+            <br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20for%20what%20will%20my%20ratings%20be%20used?" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+              </ul>
+            </div>
+          </div>
+          <!-- #for-what-will-my-ratings-be-used -->     
+
+          <!-- #when-will-i-receive-a-rating-for-my-work -->
+          <div class="card collapsed" data-toggle="collapse" data-target="#when-will-i-receive-a-rating-for-my-work" aria-expanded="false"
+          aria-controls="when-will-i-receive-a-rating-for-my-work">
+          <div class="card-header btn-label">
+            When will I receive a rating for my work?
+            <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+          </div>
+        
+          <div id="when-will-i-receive-a-rating-for-my-work" class="card-body collapse" data-parent="#getting-started-accordion">
+
+            The Project Manager can rate you anytime during a project, but most of the time you will be rated at the end of a project.            
+          
+          <br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20when%20will%20I%20receive%20a%20rating%20for%20my%20work?" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+            </ul>
+          </div>
+        </div>
+        <!-- #when-will-i-receive-a-rating-for-my-work -->     
+
+        <!-- #how-often-can-i-get-rated-for-a-project -->
+        <div class="card collapsed" data-toggle="collapse" data-target="#how-often-can-i-get-rated-for-a-project" aria-expanded="false"
+        aria-controls="how-often-can-i-get-rated-for-a-project">
+        <div class="card-header btn-label">
+          How often can I get rated for a project?
+          <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+        </div>
+      
+        <div id="how-often-can-i-get-rated-for-a-project" class="card-body collapse" data-parent="#getting-started-accordion">
+
+          Depending on the length of the project you may be rated multiple times. For short and/or one-off project, the Project Manager will usually only rate you once; for ongoing projects, the Project Manager may decide to rate you multiple times, which can be in your advantage as your performance may improve due to growth in your knowledge, experience and skills.              
+        
+        <br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20how%20often%20can%20I%20get%20rated%20for%20a%20project?" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+          </ul>
+        </div>
+      </div>
+      <!-- #how-often-can-i-get-rated-for-a-project -->     
+
+
+
+
             </div>
           </div>
         </div>
-        <!-- FAQ -->
+        <!-- Ratings -->
+
+
+        <!-- Project Types and Labels -->
+        <div class="row accordion-question pt-5" id="workplace-profile-project-types-labels">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <p class="sub-heading"><strong>Project Types and Labels</strong></p>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="accordion" id="faq-accordion">
+
+            <!-- #how-can-I-add-labels-to-my-profile -->
+            <div class="card collapsed" data-toggle="collapse" data-target="#how-can-I-add-labels-to-my-profile" aria-expanded="false"
+            aria-controls="how-can-I-add-labels-to-my-profile">
+            <div class="card-header btn-label">
+              How can I add labels to my profile?
+              <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+            </div>
+          
+            <div id="how-can-I-add-labels-to-my-profile" class="card-body collapse" data-parent="#getting-started-accordion">
+
+              Pick up labels to indicate your skills such as languages and applications, knowhow such as expertise and locality, as well as other things like availability and what kind of devices you use.
+
+              This will enable you to showcase your abilities while also letting us know the kind of work you're interested in doing. For example, if you're great at Photoshop but don't want to work on projects involving this skill, then feel free to not pick up this label. This will then help us to more efficiently assemble a team of SupaAgents according to project requirements.
+              
+              Watch <a href="https://drive.google.com/file/d/1ZbEXr9_SRSeCBu8PVEHtsOCilujP6Qbd/view?usp=sharing" class="link-color" > this tutorial</a> or follow these steps:
+              <br><br>
+              <ol>
+              <li> Log in to Workplace</li>
+              <li>Go to your profile picture at the top right corner and click Edit Profile</li>
+              <li>Select the Project Types and Labels tab</li>
+              <li>Click the Add/Edit Labels button </li>
+              <li>You will see a selection of labels which you can pick up according to the qualifying criteria mentioned in the description for each category.</li>
+              
+              </ol>
+              Note: Do adhere to the qualifying criteria mentioned in the description for each category of labels. For example, you may only pick up the languages for which you have native or near-native proficiency. If you are unable to perform on a project which requires the skill you have picked up, your ratings might be affected.
+              
+                            
+            
+            <br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20how%20can%20I%20add%20labels%20to%20my%20profile?" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+              </ul>
+            </div>
+          </div>
+          <!-- #how-can-I-add-labels-to-my-profile -->     
+
+
+          <!-- #what-are-the-project-types -->
+          <div class="card collapsed" data-toggle="collapse" data-target="#what-are-the-project-types" aria-expanded="false"
+          aria-controls="what-are-the-project-types">
+          <div class="card-header btn-label">
+            What are the project types?
+            <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+          </div>
+        
+          <div id="what-are-the-project-types" class="card-body collapse" data-parent="#getting-started-accordion">
+
+            These are the project types that you can unlock at this point:
+            <br><br>
+            <ul>
+            <li>Lead Generation</li>
+            <li>Content Moderation 2</li>
+            <li>Data Management 2</li>
+            <li>Online Support 2</li>
+            </ul>
+            <br>
+            If you’ve passed Level 2 for Content Moderation, Data Management or Online Support, then you’ve automatically unlocked Level 1 as well.
+            <br><br>
+            <img src="images/page 9.png" style="width:600px">
+          
+          <br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20what%20are%20the%20project%20types?" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+            </ul>
+          </div>
+        </div>
+        <!-- #what-are-the-project-types -->     
+
+        <!-- #how-do-I-know-the-project-type-of-a-project -->
+        <div class="card collapsed" data-toggle="collapse" data-target="#how-do-I-know-the-project-type-of-a-project" aria-expanded="false"
+        aria-controls="how-do-I-know-the-project-type-of-a-project">
+        <div class="card-header btn-label">
+          How do I know the Project Type of a project?
+          <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+        </div>
+      
+        <div id="how-do-I-know-the-project-type-of-a-project" class="card-body collapse" data-parent="#getting-started-accordion">
+
+          You can find the abbreviated Project Type on each list shown in the Projects section on Workplace. Hover your mouse over the abbreviation to view the meaning. You can also find it under the Project Requirements in the Details tab of each project.              
+        
+        <br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20how%20do%20I%20know%20the%20project%20type%20of%20a%20project?" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+          </ul>
+        </div>
+      </div>
+      <!-- #how-do-I-know-the-project-type-of-a-project -->  
+      
+      <!-- #how-can-i-unlock-more-project-types -->
+      <div class="card collapsed" data-toggle="collapse" data-target="#how-can-i-unlock-more-project-types" aria-expanded="false"
+      aria-controls="how-can-i-unlock-more-project-types">
+      <div class="card-header btn-label">
+        How can I unlock more Project Types?
+        <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+      </div>
+    
+      <div id="how-can-i-unlock-more-project-types" class="card-body collapse" data-parent="#getting-started-accordion">
+
+        To unlock more Project Types, follow these steps:
+        <br><br>
+        <ol>
+        <li>Log in to Workplace</li>
+        <li>Go to your profile picture at the top right corner and click Edit Profile</li>
+        <li>Click on the Project Types and Labels tab</li>
+        <li>You will see several project types. Click Unlock to take the assessment     </li>     
+        </ol>
+      <br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20how%20can%20I%20unlock%20more%20project%20types?" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+        </ul>
+      </div>
+    </div>
+    <!-- #how-can-i-unlock-more-project-types -->     
+
+    <!-- #how-do-i-know-if-i-pass-the-project-type-assessment -->
+    <div class="card collapsed" data-toggle="collapse" data-target="#how-do-i-know-if-i-pass-the-project-type-assessment" aria-expanded="false"
+    aria-controls="how-do-i-know-if-i-pass-the-project-type-assessment">
+    <div class="card-header btn-label">
+      How do I know if I pass the Project Type assessment?
+      <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+    </div>
+  
+    <div id="how-do-i-know-if-i-pass-the-project-type-assessment" class="card-body collapse" data-parent="#getting-started-accordion">
+
+      For all Project Type assessments except Lead Generation, you’ll receive the results on the same day via email. You should also see the abbreviated project type label(s) appear on your profile.
+      <br>If you do not see the unlocked project type on your profile, please contact<a href="mailto:supaagent.hub@supahands.com" class="link-color"> supaagent.hub@supahands.com </a>             
+    
+    <br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20how%20do%20I%20know%20if%20I%20pass%20the%20project%20type%20assessment?" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+      </ul>
+    </div>
+  </div>
+  <!-- #how-do-i-know-if-i-pass-the-project-type-assessment -->  
+  
+  <!-- #can-i-retake-the-project-type-assessment-if-i-fail -->
+  <div class="card collapsed" data-toggle="collapse" data-target="#can-i-retake-the-project-type-assessment-if-i-fail" aria-expanded="false"
+  aria-controls="can-i-retake-the-project-type-assessment-if-i-fail">
+  <div class="card-header btn-label">
+    Can I retake the Project Type assessment if i fail?
+    <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+  </div>
+
+  <div id="can-i-retake-the-project-type-assessment-if-i-fail" class="card-body collapse" data-parent="#getting-started-accordion">
+
+    Yes, you can try again as there is no limit to how many times you can take the Project Type assessment.        
+  
+  <br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20can%20I%20retake%20the%20project%20assessment%20if%20I%20fail?" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+    </ul>
+  </div>
+</div>
+<!-- #can-i-retake-the-project-type-assessment-if-i-fail -->     
+
+
+
+
+              
+            </div>
+          </div>
+        </div>
+        <!-- Project Types and Labels -->
+
+        
+        <!-- Referral -->
+        <p class="title main-title mt-5 mb-0"><strong>Referral</strong></p>
+
+        <!-- Referral -->
+        <div class="row accordion-question pt-5" id="referral">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <p class="sub-heading"><strong>Referral</strong></p>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="accordion" id="quick-guide-accordion">
+
+
+              <!-- #how-does-the-supaagent-referral-programme-work -->
+              <div class="card collapsed" data-toggle="collapse" data-target="#how-does-the-supaagent-referral-programme-work" aria-expanded="false"
+              aria-controls="how-does-the-supaagent-referral-programme-work">
+              <div class="card-header btn-label">
+                How does the SupaAgent Referral Programme work?
+                <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+              </div>
+            
+              <div id="how-does-the-supaagent-referral-programme-work" class="card-body collapse" data-parent="#getting-started-accordion">
+
+                Note: This programme is temporarily paused. 
+                <br><br>
+                As we would like to encourage you to share this great opportunity with your friends and family, 
+                we have a referral program where you'll get the chance to earn USD 2.30.
+                <br><br>
+                How it works: <br><ol><br>
+                <li>Refer your friends and get them to apply to be a SupaAgent via <a href="www.supaagents.com" class="link-color">www.supaagents.com </a></li>
+                <li>Once they pass the assessment, they will receive the link to the SupaAgent Details Form 
+                  where they can enter your SupaAgent ID as the referrer. See image below. </li>
+               
+                Note: Any mentions after will not be entertained.
+                
+                [screenshot from here page 24]
+                
+                <li>Your friend will then need to go through the rest of the onboarding process and complete enough work 
+                  to reach the minimum payout amount, which is currently USD 5.00. 
+                  This amount has to be reached within the first two SupaPayments cycles after they've joined. </li>
+                <li>Once we confirm all requirements are met, you will receive USD 2.30 in the following SupaPayments cycle.</li>
+
+                </ol>
+                <br>
+                <b>Example: <br></b>
+                April: Your friend joins and gets onboarded.<br>
+                May: Your friend reaches the minimum payout of USD 5.00 and gets paid.<br>
+                June: You get paid the USD 2.30 fee (according to the SupaPayments schedule)"            
+              
+              <br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20how%20does%20the%20the%20supaagent%20referral%20programme%20work?" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+                </ul>
+              </div>
+            </div>
+            <!-- #how-does-the-supaagent-referral-programme-work -->     
+
+        
+            <!-- #how-do-i-know-if-i-will-be-paid-for-referral-bonus -->
+            <div class="card collapsed" data-toggle="collapse" data-target="#how-do-i-know-if-i-will-be-paid-for-referral-bonus" aria-expanded="false"
+            aria-controls="how-do-i-know-if-i-will-be-paid-for-referral-bonus">
+            <div class="card-header btn-label">
+              How do I know if I will be paid for referral bonus?
+              <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+            </div>
+          
+            <div id="how-do-i-know-if-i-will-be-paid-for-referral-bonus" class="card-body collapse" data-parent="#getting-started-accordion">
+
+              Note: The referral programme is currently paused. <br>
+              You should see the bonus amount reflected in your payment.
+                         
+            
+            <br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20how%20do%20I%20know%20if%20I%20will%20be%20paid%20for%20referral%20bonus?" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+              </ul>
+            </div>
+          </div>
+          <!-- #how-do-i-know-if-i-will-be-paid-for-referral-bonus -->     
+      
+            </div>
+          </div>
+        </div>
+        <!-- Referral -->
+
+        <!-- Policies -->
+        <p class="title main-title mt-5 mb-0"><strong>Policies</strong></p>
+
+        <!-- SupaAgent Terms and Conditions (Contract) -->
+        <div class="row accordion-question pt-5" id="terms-conditions">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <p class="sub-heading"><strong>SupaAgent Terms and Conditions (Contract)</strong></p>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="accordion" id="faq-accordion">
+
+              <!-- #supaagents-terms-and-conditions-contract -->
+              <div class="card collapsed" data-toggle="collapse" data-target="#supaagents-terms-and-conditions-contract" aria-expanded="false"
+              aria-controls="supaagents-terms-and-conditions-contract">
+              <div class="card-header btn-label">
+                SupaAgents Terms and Conditions (Contract)
+                <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+              </div>
+            
+              <div id="supaagents-terms-and-conditions-contract" class="card-body collapse" data-parent="#getting-started-accordion">
+
+                Read the SupaAgents Terms and Conditions (Contract) <a href="https://drive.google.com/drive/folders/0BxGoiOUQPNIoeXZSNnl0YlZybVE" class="link-color"> here </a>.            
+              
+              <br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20SupaAgents%20Terms%20and%20Condition%20(contract)" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+                </ul>
+              </div>
+            </div>
+            <!-- #supaagents-terms-and-conditions-contract -->     
+
+              
+
+        <!-- Privacy Policy -->
+        <div class="row accordion-question pt-5" id="privacy-policy">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <p class="sub-heading"><strong>Privacy Policy</strong></p>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="accordion" id="faq-accordion">
+
+              <!-- #privacy-policy -->
+              <div class="card collapsed" data-toggle="collapse" data-target="#privacy-policy" aria-expanded="false"
+              aria-controls="privacy-policy">
+              <div class="card-header btn-label">
+                Privacy Policy
+                <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+              </div>
+            
+              <div id="privacy-policy" class="card-body collapse" data-parent="#getting-started-accordion">
+
+                Read the Privacy Policy <a href="https://supahands.com/privacy-policy/" class="link-color"> here</a>.             
+              
+              <br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20Privacy%20Policy" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+                </ul>
+              </div>
+            </div>
+            <!-- #privacy-policy -->     
+
+        
+            </div>
+          </div>
+        </div>
+        <!-- Policies -->
 
       </div>
       <!-- Main Content Area -->

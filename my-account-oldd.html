@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Account</title>
+  <link rel="icon" type="image/png" href="assets/img/Logo-Fist/LogoFist.png"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">  
+  <link rel="stylesheet" type="text/css" href="styles/menubar.css">
+  <link rel="stylesheet" type="text/css" href="styles/sidebar.css">
+  <link rel="stylesheet" type="text/css" href="styles/help_topics.css">
+  <link rel="stylesheet" type="text/css" href="styles/navbar.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/e087952ad9.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="scripts/customized-accordion.js"></script>
+</head>
+<!-- Blue Navbar start -->
+<header class="page-header header container-fluid fixed-top" id="header-section">
+  <nav class="navbar navbar-expand-lg container" id="nav-container">
+    <a class="navbar-brand" id="navbar-brand" href="index.html">
+      <img src="assets/img/Logo-Fist/Logo-Fist@2x.png" id="mainlogo" alt="supahandslogo">
+        <span class="logo-name"><strong>Help Centre</strong></span>
+    </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link nav-active" id="nav-link" href="projects.html">Help Topics</a>
+          </li>
+          <!-- <li class="nav-item" id="nav-div">
+            <a class="nav-link" id="nav-tab" href="#">Guides</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-tab-three" href="#">Products</a>
+          </li> -->
+        </ul>
+        <a href="http://workplace.supahands.com" class="btn navbtn my-2 my-sm-0" target="_blank">Go To Workplace</a>
+      </div>
+  </nav>
+</header>
+<!-- Blue Navbar end -->
+<body>
+<div class="heading-gap fixed-top" style="top:50px"></div>
+<section class="container-fluid fixed-top pl-0" id="menunav">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 pl-0 pt-0">
+        <nav class="navbar navbar-expand-sm pl-0 pt-0">
+          <ul class="navbar-nav">
+            <a class="category-link" href="getting-started.html">
+              <li class="category-tab">GETTING STARTED</li>
+            </a>
+            <a class="category-link" href="projects.html">
+              <li class="category-tab">PROJECTS</li>
+            </a>
+            <a class="category-link" href="payments.html">
+              <li class="category-tab">PAYMENTS</li>
+            </a>
+            <a class="category-link" href="my-account.html">
+              <li class="category-tab category-tab-active">MY ACCOUNT</li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container-fluid project-body">
+  <div class="container">
+    <div class="row project-main-row">
+      <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 sticky-top" id="sidebar-section">
+        <!-- Sidebar accordion section starts -->
+        <div class="sidebar">
+          <div id="accordion" class="sidebar-accordion">
+            <div class="card">
+              <div class="card-header sidebar-title mb-0 mt-3 pb-0" data-toggle="collapse" data-target="#workplace-profile" aria-expanded="false">
+                <h5 class="accordion-header">
+                  <span class="side-title">Workplace Profile</span>
+                  <i class="fas fa-stack fa-sm fa-chevron-down"></i> 
+                </h5>
+              </div>
+              <div id="workplace-profile" class="collapse" data-parent="#accordion">
+                <div class="card-body pt-0">
+                    <ul class="nav side-sub-nav">
+                      <li class="nav-item side-menu">
+                        <a class="nav-link side-menu-link" href="#workplace-profile-profile">Profile</a>
+                      </li>
+                      <li class="nav-item side-menu">
+                        <a class="nav-link side-menu-link" href="#workplace-profile-ratings">Ratings</a>
+                      </li>
+                      <li class="nav-item side-menu">
+                        <a class="nav-link side-menu-link" href="#workplace-profile-project-types-labels">Project Types & Labels</a>
+                      </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header sidebar-title mb-0 pb-0" data-toggle="collapse" data-target="#projectQueue" aria-expanded="false" aria-controls="projectQueue">
+                <h5 class="accordion-header">
+                  <span class="side-title">Referral</span>
+                  <i class="fas fa-stack fa-sm fa-chevron-down"></i> 
+                </h5>
+              </div>
+              <div id="projectQueue" class="collapse" data-parent="#accordion">
+                <div class="card-body pt-0">
+                  <ul class="nav side-sub-nav">
+                      <li class="nav-item side-menu">
+                        <a class="nav-link side-menu-link pt-0" href="#projectQueueQuickGuide">Referral</a>
+                      </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header sidebar-title mb-0 mt-3 pb-0" data-toggle="collapse" data-target="#getting-started" aria-expanded="false">
+                <h5 class="accordion-header">
+                  <span class="side-title">Policies</span>
+                  <i class="fas fa-stack fa-sm fa-chevron-down"></i> 
+                </h5>
+              </div>
+              <div id="getting-started" class="collapse" data-parent="#accordion">
+                <div class="card-body pt-0">
+                    <ul class="nav side-sub-nav">
+                      <li class="nav-item side-menu">
+                        <a class="nav-link side-menu-link" href="#workplace-profile-profile">SupaAgent Terms and Conditions (Contract)</a>
+                      </li>
+                      <li class="nav-item side-menu">
+                        <a class="nav-link side-menu-link" href="#workplace-profile-ratings">Privacy Policy</a>
+                      </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header sidebar-title mb-0 mt-3 pb-0" data-toggle="collapse" data-target="#new" aria-expanded="false">
+                <h5 class="accordion-header">
+                  <span class="side-title">New</span>
+                  <i class="fas fa-stack fa-sm fa-chevron-down"></i> 
+                </h5>
+              </div>
+              <div id="new" class="collapse" data-parent="#accordion">
+                <div class="card-body pt-0">
+                    <ul class="nav side-sub-nav">
+                      <li class="nav-item side-menu">
+                        <a class="nav-link side-menu-link" href="#workplace-profile-profile">SupaAgent Terms and Conditions (Contract)</a>
+                      </li>
+                      <li class="nav-item side-menu">
+                        <a class="nav-link side-menu-link" href="#workplace-profile-ratings">Privacy Policy</a>
+                      </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- Sidebar accordion section ends -->
+      </div>
+      <!-- Main Content Area -->
+      <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8 pt-3">
+        <p class="title main-title"><strong>Workplace Profile</strong></p>
+        <p class="project-sub-title"><i>Last reviewed: 14 July 2020</i></p>
+        
+        <!-- Main sections -->
+        <div class="row accordion-question" id="getting-started-how-to-join">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <p class="sub-heading"><strong>Profile</strong></p>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="accordion" id="getting-started-accordion">
+              <!-- #what-do-i-need-to-do-if-workplace-does-not-recognize-me-when-logging-in -->
+              <div class="card topcard collapsed" data-toggle="collapse" data-target="#what-do-i-need-to-do-if-workplace-does-not-recognize-me-when-logging-in" aria-expanded="false" aria-controls="what-do-i-need-to-do-if-workplace-does-not-recognize-me-when-logging-in">
+                <div class="card-header btn-label">
+                  What do I need to do if Workplace does not recognize me when logging in?
+                  <i class="fas fa-stack fa-sm fa-chevron-down"></i> 
+                </div>
+            
+                <div id="what-do-i-need-to-do-if-workplace-does-not-recognize-me-when-logging-in" class="card-body collapse" data-parent="#getting-started-accordion">
+                  Make sure you have received an email granting you access to 
+                  <a href="https://workplace.supahands.com" class="link-color" target="_blank">Workplace</a>. 
+                  If you still can't log in, this might be because your browser is trying to log in with your default Gmail account. 
+                  Try the following steps: </br><br>
+                  <ol>
+                    <li>Log out of all current Google accounts.</li>
+                      <li>Log in to your Gmail account that you used to register as a SupaAgent.</li>
+                        <li>Go to <a href="https://workplace.supahands.com" class="link-color" target="_blank">Workplace</a> and try logging in again.</li>
+                </ol>
+                  If the issue persists, drop a message in the 
+                  <a href="https://supahive.slack.com/archives/C4CGV7EKW" class="link-color" target="_blank">#tech-issues</a> channel on Slack 
+                  or send an email to 
+                  <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20Workplace%20does%20not%20recognize%20me" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a> 
+                  and our team shall assist you.
+                </div>
+              </div>
+              <!-- #what-do-i-need-to-do-if-workplace-does-not-recognize-me-when-logging-in -->
+
+              <!-- #can-i-change-the-email-account-ive-registered-with-supahands -->
+              <div class="card collapsed" data-toggle="collapse" data-target="#can-i-change-the-email-account-ive-registered-with-supahands" aria-expanded="false"
+                aria-controls="can-i-change-the-email-account-ive-registered-with-supahands">
+                <div class="card-header btn-label">
+                  Can I change the email account I’ve registered with Supahands?
+                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+                </div>
+              
+                <div id="can-i-change-the-email-account-ive-registered-with-supahands" class="card-body collapse" data-parent="#getting-started-accordion">
+                  No, at this point it is not possible to change the Gmail account that you used to register as a SupaAgent, 
+                  unless it is required for technical reasons.
+                  <br><br>
+                  <i> Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20Can%20I%20change%20the%20email%20account%20I%20have%20registered%20with%20Supahands?" 
+                    class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+                </div>
+              </div>
+              <!-- #can-i-change-the-email-account-ive-registered-with-supahands -->
+
+              <!-- #how-can-i-fill-in-or-edit-my-profile-on-workplace -->
+              <div class="card collapsed" data-toggle="collapse" data-target="#how-can-i-fill-in-or-edit-my-profile-on-workplace" aria-expanded="false"
+                aria-controls="how-can-i-fill-in-or-edit-my-profile-on-workplace">
+                <div class="card-header btn-label">
+                  How can I fill in or edit my profile on Workplace?
+                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+                </div>
+              
+                <div id="how-can-i-fill-in-or-edit-my-profile-on-workplace" class="card-body collapse" data-parent="#getting-started-accordion">
+                  Follow these steps to fill in or edit your Workplace profile:
+                <ol>
+                <li>Log in to <a href="workplace.supahands.com" class="link-color" target="_blank">Workplace</a>.</li>
+                <li>Go to your profile picture at the top right corner.</li>
+                <li>Click Edit Profile button.</li>
+                <li>Complete these details:
+                <ul>
+                <li>Personal Information</li>
+                <li>Contact Information</li>
+                <li>Education and Experience</li>
+                </ul>
+                </li>
+                <li>Click Save button.</li>
+                </ol>
+                Note: To change your banking information, refer to this article [TO FILL IN].
+                <br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20How%20can%20I%20fill%20in%20or%20edit%20my%20profile%20on%20Workplace?" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+                  </ul>
+                </div>
+              </div>
+              <!-- #how-can-i-fill-in-or-edit-my-profile-on-workplace -->            
+            </div>
+          </div>
+        </div>
+        <!-- Workplace Profile -->
+
+        <!-- Ratings -->
+        <div class="row accordion-question pt-5" id="projectQueueFaq">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <p class="sub-heading"><strong>Ratings</strong></p>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="accordion" id="faq-accordion">
+
+              <!-- #what-do-i-need-to-do-if-workplace-does-not-recognize-me-when-logging-in -->
+              <div class="card topcard collapsed" data-toggle="collapse" data-target="#what-do-i-need-to-do-if-workplace-does-not-recognize-me-when-logging-in" aria-expanded="false" aria-controls="what-do-i-need-to-do-if-workplace-does-not-recognize-me-when-logging-in">
+                <div class="card-header btn-label">
+                  What do I need to do if Workplace does not recognize me when logging in?
+                  <i class="fas fa-stack fa-sm fa-chevron-down"></i> 
+                </div>
+            
+                <div id="what-do-i-need-to-do-if-workplace-does-not-recognize-me-when-logging-in" class="card-body collapse" data-parent="#getting-started-accordion">
+                  Make sure you have received an email granting you access to 
+                  <a href="https://workplace.supahands.com" class="link-color" target="_blank">Workplace</a>. 
+                  If you still can't log in, this might be because your browser is trying to log in with your default Gmail account. 
+                  Try the following steps: </br><br>
+                  <ol>
+                    <li>Log out of all current Google accounts.</li>
+                      <li>Log in to your Gmail account that you used to register as a SupaAgent.</li>
+                        <li>Go to <a href="https://workplace.supahands.com" class="link-color" target="_blank">Workplace</a> and try logging in again.</li>
+                </ol>
+                  If the issue persists, drop a message in the 
+                  <a href="https://supahive.slack.com/archives/C4CGV7EKW" class="link-color" target="_blank">#tech-issues</a> channel on Slack 
+                  or send an email to 
+                  <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20Workplace%20does%20not%20recognize%20me" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a> 
+                  and our team shall assist you.
+                </div>
+              </div>
+              <!-- #what-do-i-need-to-do-if-workplace-does-not-recognize-me-when-logging-in -->
+
+              <!-- #can-i-change-the-email-account-ive-registered-with-supahands -->
+              <div class="card collapsed" data-toggle="collapse" data-target="#can-i-change-the-email-account-ive-registered-with-supahands" aria-expanded="false"
+                aria-controls="can-i-change-the-email-account-ive-registered-with-supahands">
+                <div class="card-header btn-label">
+                  Can I change the email account I’ve registered with Supahands?
+                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+                </div>
+              
+                <div id="can-i-change-the-email-account-ive-registered-with-supahands" class="card-body collapse" data-parent="#getting-started-accordion">
+                  No, at this point it is not possible to change the Gmail account that you used to register as a SupaAgent, 
+                  unless it is required for technical reasons.
+                  <br><br>
+                  <i> Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20Can%20I%20change%20the%20email%20account%20I%20have%20registered%20with%20Supahands?" 
+                    class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+                </div>
+              </div>
+              <!-- #can-i-change-the-email-account-ive-registered-with-supahands -->
+
+              <!-- #how-can-i-fill-in-or-edit-my-profile-on-workplace -->
+              <div class="card collapsed" data-toggle="collapse" data-target="#how-can-i-fill-in-or-edit-my-profile-on-workplace" aria-expanded="false"
+                aria-controls="how-can-i-fill-in-or-edit-my-profile-on-workplace">
+                <div class="card-header btn-label">
+                  How can I fill in or edit my profile on Workplace?
+                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+                </div>
+              
+                <div id="how-can-i-fill-in-or-edit-my-profile-on-workplace" class="card-body collapse" data-parent="#getting-started-accordion">
+                  Follow these steps to fill in or edit your Workplace profile:
+<ol>
+<li>Log in to <a href="workplace.supahands.com" class="link-color" target="_blank">Workplace</a>.</li>
+<li>Go to your profile picture at the top right corner.</li>
+<li>Click Edit Profile button.</li>
+<li>Complete these details:
+<ul>
+<li>Personal Information</li>
+<li>Contact Information</li>
+<li>Education and Experience</li>
+</ul>
+</li>
+<li>Click Save button.</li>
+</ol>
+Note: To change your banking information, refer to this article [TO FILL IN].
+<br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20How%20can%20I%20fill%20in%20or%20edit%20my%20profile%20on%20Workplace?" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+                  </ul>
+                </div>
+              </div>
+              <!-- #how-can-i-fill-in-or-edit-my-profile-on-workplace -->
+            </div>
+          </div>
+        </div>
+        <!-- Ratings -->
+
+
+        <!-- Project Types and Labels -->
+        <div class="row accordion-question pt-5" id="projectQueueFaq">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <p class="sub-heading"><strong>Project Types and Labels</strong></p>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="accordion" id="faq-accordion">
+
+              <!-- #what-do-i-need-to-do-if-workplace-does-not-recognize-me-when-logging-in -->
+              <div class="card topcard collapsed" data-toggle="collapse" data-target="#what-do-i-need-to-do-if-workplace-does-not-recognize-me-when-logging-in" aria-expanded="false" aria-controls="what-do-i-need-to-do-if-workplace-does-not-recognize-me-when-logging-in">
+                <div class="card-header btn-label">
+                  What do I need to do if Workplace does not recognize me when logging in?
+                  <i class="fas fa-stack fa-sm fa-chevron-down"></i> 
+                </div>
+            
+                <div id="what-do-i-need-to-do-if-workplace-does-not-recognize-me-when-logging-in" class="card-body collapse" data-parent="#getting-started-accordion">
+                  Make sure you have received an email granting you access to 
+                  <a href="https://workplace.supahands.com" class="link-color" target="_blank">Workplace</a>. 
+                  If you still can't log in, this might be because your browser is trying to log in with your default Gmail account. 
+                  Try the following steps: </br><br>
+                  <ol>
+                    <li>Log out of all current Google accounts.</li>
+                      <li>Log in to your Gmail account that you used to register as a SupaAgent.</li>
+                        <li>Go to <a href="https://workplace.supahands.com" class="link-color" target="_blank">Workplace</a> and try logging in again.</li>
+                </ol>
+                  If the issue persists, drop a message in the 
+                  <a href="https://supahive.slack.com/archives/C4CGV7EKW" class="link-color" target="_blank">#tech-issues</a> channel on Slack 
+                  or send an email to 
+                  <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20Workplace%20does%20not%20recognize%20me" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a> 
+                  and our team shall assist you.
+                </div>
+              </div>
+              <!-- #what-do-i-need-to-do-if-workplace-does-not-recognize-me-when-logging-in -->
+
+              <!-- #can-i-change-the-email-account-ive-registered-with-supahands -->
+              <div class="card collapsed" data-toggle="collapse" data-target="#can-i-change-the-email-account-ive-registered-with-supahands" aria-expanded="false"
+                aria-controls="can-i-change-the-email-account-ive-registered-with-supahands">
+                <div class="card-header btn-label">
+                  Can I change the email account I’ve registered with Supahands?
+                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+                </div>
+              
+                <div id="can-i-change-the-email-account-ive-registered-with-supahands" class="card-body collapse" data-parent="#getting-started-accordion">
+                  No, at this point it is not possible to change the Gmail account that you used to register as a SupaAgent, 
+                  unless it is required for technical reasons.
+                  <br><br>
+                  <i> Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20Can%20I%20change%20the%20email%20account%20I%20have%20registered%20with%20Supahands?" 
+                    class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+                </div>
+              </div>
+              <!-- #can-i-change-the-email-account-ive-registered-with-supahands -->
+
+              <!-- #how-can-i-fill-in-or-edit-my-profile-on-workplace -->
+              <div class="card collapsed" data-toggle="collapse" data-target="#how-can-i-fill-in-or-edit-my-profile-on-workplace" aria-expanded="false"
+                aria-controls="how-can-i-fill-in-or-edit-my-profile-on-workplace">
+                <div class="card-header btn-label">
+                  How can I fill in or edit my profile on Workplace?
+                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+                </div>
+              
+                <div id="how-can-i-fill-in-or-edit-my-profile-on-workplace" class="card-body collapse" data-parent="#getting-started-accordion">
+                  Follow these steps to fill in or edit your Workplace profile:
+<ol>
+<li>Log in to <a href="workplace.supahands.com" class="link-color" target="_blank">Workplace</a>.</li>
+<li>Go to your profile picture at the top right corner.</li>
+<li>Click Edit Profile button.</li>
+<li>Complete these details:
+<ul>
+<li>Personal Information</li>
+<li>Contact Information</li>
+<li>Education and Experience</li>
+</ul>
+</li>
+<li>Click Save button.</li>
+</ol>
+Note: To change your banking information, refer to this article [TO FILL IN].
+<br><br><i>Need more help? Email <a href="mailto:supaagent.hub@supahands.com?subject=Help%20Centre:%20How%20can%20I%20fill%20in%20or%20edit%20my%20profile%20on%20Workplace?" class="link-color" target="_blank" rel="noopener noreferrer">SupaAgent Hub</a>.</i>
+                  </ul>
+                </div>
+              </div>
+              <!-- #how-can-i-fill-in-or-edit-my-profile-on-workplace -->
+            </div>
+          </div>
+        </div>
+        <!-- Project Types and Labels -->
+
+        
+        <!-- Referral -->
+        <p class="title main-title mt-5 mb-0"><strong>Referral</strong></p>
+
+        <!-- Referral -->
+        <div class="row accordion-question pt-5" id="projectQueueQuickGuide">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <p class="sub-heading"><strong>Referral</strong></p>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="accordion" id="quick-guide-accordion">
+              <!-- #what-is-a-project-queue -->
+              <div class="card topcard collapsed" data-toggle="collapse" data-target="#what-is-a-project-queue"
+                aria-expanded="false" aria-controls="what-is-a-project-queue">
+                <div class="card-header btn-label">
+                  What is a project queue?
+                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+                </div>
+        
+                <div id="what-is-a-project-queue" class="card-body collapse" data-parent="#quick-guide-accordion">
+                  A project queue is a new way of joining a project on <a href="https://workplace.supahands.com" target="_blank">Workplace</a>. Each SupaAgent who joins a project queue will
+                  be assigned a tutorial slot.
+                  Every project queue has an allocated number of tutorial slots. Once the queue is full, no more tutorial slots
+                  will be assigned.
+                  For further information please refer to our 
+                  <span class="linked-text" data-toggle="collapse" aria-expanded="false" 
+                    aria-controls="what-are-the-project-queue-terms-and-conditions" 
+                    data-target='#what-are-the-project-queue-terms-and-conditions'>
+                    Supahands Project Queue terms and conditions
+                  </span>. If you have any questions about the process, please <a href="mailto:supaagents.hub@supahands.com">submit a request</a>.
+                </div>
+              </div>
+              <!-- #what-is-a-project-queue -->
+        
+              <!-- #what-is-a-tutorial-timeslot -->
+              <div class="card collapsed" data-toggle="collapse" data-target="#what-is-a-tutorial-timeslot"
+                aria-expanded="false" aria-controls="what-is-a-tutorial-timeslot">
+                <div class="card-header btn-label">
+                  What is a tutorial timeslot?
+                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+                </div>
+        
+                <div id="what-is-a-tutorial-timeslot" class="card-body collapse" data-parent="#quick-guide-accordion">
+                  A tutorial timeslot refers to the start time allocated for you to take a project tutorial.
+                  It is your responsibility to make sure you are on time for your tutorial. If you are late, the system will
+                  only hold your tutorial slot for an additional 10 minutes. After this grace period, you will not be able to
+                  take the project tutorial.
+                </div>
+              </div>
+              <!-- #what-is-a-tutorial-timeslot -->
+      
+            </div>
+          </div>
+        </div>
+        <!-- Referral -->
+
+        <!-- Policies -->
+        <p class="title main-title mt-5 mb-0"><strong>Policies</strong></p>
+
+        <!-- SupaAgent Terms and Conditions (Contract) -->
+        <div class="row accordion-question pt-5" id="projectQueueFaq">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <p class="sub-heading"><strong>SupaAgent Terms and Conditions (Contract)</strong></p>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="accordion" id="faq-accordion">
+
+              <!-- #why-do-I-need-to-wait-in-a-queue-to-join-a-project -->
+              <div class="card topcard collapsed" data-toggle="collapse" data-target="#why-do-I-need-to-wait-in-a-queue-to-join-a-project"
+                aria-expanded="false" aria-controls="why-do-I-need-to-wait-in-a-queue-to-join-a-project">
+                <div class="card-header btn-label">
+                  Why do I need to wait in a queue to join a project?
+                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+                </div>
+              
+                <div id="why-do-I-need-to-wait-in-a-queue-to-join-a-project" class="card-body collapse" data-parent="#faq-accordion">
+                  To access the Project Guide: <br> We want to make sure everyone has a fair shot at working online with Supahands. To
+                  help with that, we require every SupaAgent to join a queue and wait in line for a tutorial slot.
+                </div>
+              </div>
+              <!-- #why-do-I-need-to-wait-in-a-queue-to-join-a-project -->
+
+              <!-- #will-i-get-onto-a-project-if-i-join-a-queue -->
+              <div class="card collapsed" data-toggle="collapse" data-target="#will-i-get-onto-a-project-if-i-join-a-queue"
+                aria-expanded="false" aria-controls="will-i-get-onto-a-project-if-i-join-a-queue">
+                <div class="card-header btn-label">
+                  Will I get onto a project if I join a queue?
+                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+                </div>
+              
+                <div id="will-i-get-onto-a-project-if-i-join-a-queue" class="card-body collapse" data-parent="#faq-accordion">
+                  No, joining a project queue does not guarantee a position in a project. You will still need to pass the project
+                  tutorial
+                  or assessment in the allocated time frame.
+                </div>
+              </div>
+        <!-- #will-i-get-onto-a-project-if-i-join-a-queue -->
+
+        <!-- Privacy Policy -->
+        <div class="row accordion-question pt-5" id="projectQueueFaq">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <p class="sub-heading"><strong>Privacy Policy</strong></p>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="accordion" id="faq-accordion">
+
+              <!-- #why-do-I-need-to-wait-in-a-queue-to-join-a-project -->
+              <div class="card topcard collapsed" data-toggle="collapse" data-target="#why-do-I-need-to-wait-in-a-queue-to-join-a-project"
+                aria-expanded="false" aria-controls="why-do-I-need-to-wait-in-a-queue-to-join-a-project">
+                <div class="card-header btn-label">
+                  Why do I need to wait in a queue to join a project?
+                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+                </div>
+              
+                <div id="why-do-I-need-to-wait-in-a-queue-to-join-a-project" class="card-body collapse" data-parent="#faq-accordion">
+                  To access the Project Guide: <br> We want to make sure everyone has a fair shot at working online with Supahands. To
+                  help with that, we require every SupaAgent to join a queue and wait in line for a tutorial slot.
+                </div>
+              </div>
+              <!-- #why-do-I-need-to-wait-in-a-queue-to-join-a-project -->
+
+              <!-- #will-i-get-onto-a-project-if-i-join-a-queue -->
+              <div class="card collapsed" data-toggle="collapse" data-target="#will-i-get-onto-a-project-if-i-join-a-queue"
+                aria-expanded="false" aria-controls="will-i-get-onto-a-project-if-i-join-a-queue">
+                <div class="card-header btn-label">
+                  Will I get onto a project if I join a queue?
+                  <i class="fas fa-stack fa-sm fa-chevron-down"></i>
+                </div>
+              
+                <div id="will-i-get-onto-a-project-if-i-join-a-queue" class="card-body collapse" data-parent="#faq-accordion">
+                  No, joining a project queue does not guarantee a position in a project. You will still need to pass the project
+                  tutorial
+                  or assessment in the allocated time frame.
+                </div>
+              </div>
+              <!-- #will-i-get-onto-a-project-if-i-join-a-queue -->
+            </div>
+          </div>
+        </div>
+        <!-- Policies -->
+
+      </div>
+      <!-- Main Content Area -->
+    </div>
+  </div>
+</section>
+</body>
+</html>
