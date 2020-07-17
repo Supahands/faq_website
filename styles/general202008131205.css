@@ -606,7 +606,7 @@ body #featured-body {
 .sub-heading {
     top: 224px;
     left: 420px;
-    width: 218px;
+    /* width: 218px; */
     height: 19px;
     text-align: left;
     font-size: 16px;
