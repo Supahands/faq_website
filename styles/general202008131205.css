@@ -359,8 +359,17 @@ html {
 /*  sidebar-section-end */
 
 /* -----------------      index-page-start    -------------*/
-body #featured-body {
-    background: #F7F7F7;
+/* body #featured-body {
+    background: #ffffff;
+    height: 100vh;
+} */
+body {
+    background: #f7f7f7;
+}
+
+body .body-index {
+    background: var(---f7f7f7-background) 0% 0% no-repeat padding-box;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
     height: 100vh;
 }
 
@@ -388,7 +397,7 @@ body #featured-body {
     top: 95px;
     left: 110px;
     width: 1060px;
-    height: 270px;
+    /* height: 270px; */
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 10px;
     opacity: 1;
