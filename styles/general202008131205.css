@@ -363,6 +363,9 @@ html {
     background: #ffffff;
     height: 100vh;
 } */
+body {
+    background: #f7f7f7;
+}
 
 body .body-index {
     background: var(---f7f7f7-background) 0% 0% no-repeat padding-box;
